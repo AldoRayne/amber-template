@@ -1,17 +1,6 @@
-.container-fluid {
-  margin: 0;
-
-  &:first-child {
-    background-color: black;
-  }
-
-  &:last-child {
-    background-color: #868e96;
-  }
-}
-
-
 .container {
+  position: relative;
+
   @media (min-width: 576px) {
     width: 500px;
   }

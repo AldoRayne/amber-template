@@ -69,45 +69,105 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   z-index: 1;
 }
+/* line 6, ../sass/header.scss */
+.head .container-fluid {
+  margin: 0;
+}
+/* line 9, ../sass/header.scss */
+.head .container-fluid:first-child {
+  background-color: black;
+}
+/* line 13, ../sass/header.scss */
+.head .container-fluid:last-child {
+  background-color: #868e96;
+}
+/* line 18, ../sass/header.scss */
+.head form {
+  width: 210px;
+  margin: 8px 0 12px;
+  border: 1px solid rgba(133, 147, 159, 0.5);
+}
+/* line 24, ../sass/header.scss */
+.head .form-control {
+  height: 28px;
+  background: none;
+  border: none;
+}
+/* line 30, ../sass/header.scss */
+.head .btn {
+  background: none;
+  height: 28px;
+  cursor: pointer;
+}
+/* line 36, ../sass/header.scss */
+.head .authorization-btn {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  /* line 36, ../sass/header.scss */
+  .head .authorization-btn {
+    justify-content: flex-end;
+  }
+}
+/* line 45, ../sass/header.scss */
+.head .authorization-btn button {
+  background: none;
+  border: none;
+  color: #85939f;
+  cursor: pointer;
+}
+/* line 51, ../sass/header.scss */
+.head .authorization-btn button:not(:first-child) {
+  margin-left: 35px;
+}
+/* line 55, ../sass/header.scss */
+.head .authorization-btn button[name="login"]:before {
+  content: url("../images/login.png");
+  margin-right: 4px;
+}
+/* line 60, ../sass/header.scss */
+.head .authorization-btn button[name="register"]:before {
+  content: url("../images/registr.png");
+  margin-right: 4px;
+}
 
-/* line 1, ../sass/navigation-bar.scss */
+/* line 68, ../sass/header.scss */
+.navbar {
+  position: relative;
+  padding: 0;
+}
+
+/* line 73, ../sass/header.scss */
 .navbar-nav {
   width: 100%;
+  height: 100%;
 }
 
 /* line 1, ../sass/containers.scss */
-.container-fluid {
-  margin: 0;
+.container {
+  position: relative;
 }
-/* line 4, ../sass/containers.scss */
-.container-fluid:first-child {
-  background-color: black;
-}
-/* line 8, ../sass/containers.scss */
-.container-fluid:last-child {
-  background-color: #868e96;
-}
-
 @media (min-width: 576px) {
-  /* line 14, ../sass/containers.scss */
+  /* line 1, ../sass/containers.scss */
   .container {
     width: 500px;
   }
 }
 @media (min-width: 768px) {
-  /* line 14, ../sass/containers.scss */
+  /* line 1, ../sass/containers.scss */
   .container {
     width: 740px;
   }
 }
 @media (min-width: 992px) {
-  /* line 14, ../sass/containers.scss */
+  /* line 1, ../sass/containers.scss */
   .container {
     width: 900px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 14, ../sass/containers.scss */
+  /* line 1, ../sass/containers.scss */
   .container {
     width: 1680px;
   }

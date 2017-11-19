@@ -11,9 +11,24 @@
 <header class="head">
     <div class="container-fluid">
         <div class="container">
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-xl-6">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button">
+                                    <img src="images/loop.png" alt="" width="14px" height="13px"/>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="authorization-btn col-sm-6 col-md-6 col-xl-6">
+                    <button type="button" name="login">Login</button>
+                    <button type="button" name="register">Register</button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
@@ -29,8 +44,8 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-around">
-                        <li class="nav-item">
+                    <ul class="navbar-nav justify-content-between">
+                        <li class="nav-item home">
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
