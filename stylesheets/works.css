@@ -2,4 +2,56 @@
 .works {
   width: 100%;
   min-height: 100vh;
+  background-color: #0c8fcc;
+}
+/* line 8, ../sass/works.scss */
+.works header h2 {
+  color: #ffffff;
+}
+/* line 11, ../sass/works.scss */
+.works header h2:before {
+  content: "";
+  background-color: #ffffff;
+}
+/* line 17, ../sass/works.scss */
+.works header p {
+  color: #ffffff;
+}
+/* line 22, ../sass/works.scss */
+.works ul {
+  margin-top: 46px;
+}
+/* line 25, ../sass/works.scss */
+.works ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+/* line 33, ../sass/works.scss */
+.works ul div {
+  position: relative;
+  box-sizing: border-box;
+}
+/* line 38, ../sass/works.scss */
+.works ul div:hover p {
+  opacity: 0;
+  transition: 0.5s;
+  cursor: default;
+}
+/* line 44, ../sass/works.scss */
+.works ul div:hover:before {
+  position: absolute;
+  width: 40px;
+  height: 140px;
+  content: url("../images/ellipse.png");
+  top: calc(50% - 70px);
+  left: calc(50% - 20px);
+}
+/* line 53, ../sass/works.scss */
+.works ul div p {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
 }

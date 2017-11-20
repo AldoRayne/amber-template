@@ -1,4 +1,60 @@
 .works {
   width: 100%;
   min-height: 100vh;
+  background-color: #0c8fcc;
+
+  header {
+
+    h2 {
+      color: #ffffff;
+
+      &:before {
+        content: "";
+        background-color: #ffffff;
+      }
+    }
+
+    p {
+      color: #ffffff;
+    }
+  }
+
+  ul {
+    margin-top: 46px;
+
+    li {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    div {
+      position: relative;
+      box-sizing: border-box;
+
+      &:hover {
+        p {
+          opacity: 0;
+          transition: 0.5s;
+          cursor: default;
+        }
+
+        &:before {
+          position: absolute;
+          width: 40px;
+          height: 140px;
+          content: url("../images/ellipse.png");
+          top: calc(50% - 70px);
+          left: calc(50% - 20px);
+        }
+      }
+      p {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+      }
+    }
+  }
 }
