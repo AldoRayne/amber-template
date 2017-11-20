@@ -5,7 +5,9 @@ Error: File to import not found or unreadable: compass/reset.
 1: @import "compass/reset";
 2: 
 3: @import "header";
-4: @import "containers";
+4: @import "welcome-section";
+5: @import "works";
+6: @import "month-steal";
 
 Backtrace:
 screen.scss:1
@@ -51,4 +53,4 @@ C:/Ruby24-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 1 of screen.scss\A \A 1: @import \"compass/reset\";\A 2: \A 3: @import \"header\";\A 4: @import \"containers\";"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 1 of screen.scss\A \A 1: @import \"compass/reset\";\A 2: \A 3: @import \"header\";\A 4: @import \"welcome-section\";\A 5: @import \"works\";\A 6: @import \"month-steal\";"; }

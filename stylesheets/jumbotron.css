@@ -1,0 +1,9 @@
+/* line 1, ../sass/jumbotron.scss */
+.jumbotron {
+  background: none;
+  padding-top: 0;
+}
+/* line 5, ../sass/jumbotron.scss */
+.jumbotron .lead {
+  margin: 0;
+}

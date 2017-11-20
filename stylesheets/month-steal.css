@@ -1,0 +1,14 @@
+/* line 1, ../sass/month-steal.scss */
+.month-steal {
+  width: 100%;
+  min-height: 450px;
+}
+/* line 5, ../sass/month-steal.scss */
+.month-steal h2:before {
+  content: "";
+  background-color: #eeeeee;
+}
+/* line 10, ../sass/month-steal.scss */
+.month-steal button {
+  margin-top: 46px;
+}

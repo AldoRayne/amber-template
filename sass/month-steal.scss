@@ -1,0 +1,13 @@
+.month-steal {
+  width: 100%;
+  min-height: 450px;
+
+  h2:before {
+    content: "";
+    background-color: #eeeeee;
+  }
+
+  button {
+    margin-top: 46px;
+  }
+}

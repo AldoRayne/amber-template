@@ -1,0 +1,104 @@
+/* line 3, ../sass/nav-bar.scss */
+.nav-bar-comp form {
+  width: 210px;
+  margin: 8px 0 12px;
+  border: 1px solid rgba(133, 147, 159, 0.5);
+}
+/* line 9, ../sass/nav-bar.scss */
+.nav-bar-comp .form-control {
+  height: 28px;
+  background: none;
+  border: none;
+}
+/* line 15, ../sass/nav-bar.scss */
+.nav-bar-comp .btn {
+  background: none;
+  height: 28px;
+  cursor: pointer;
+}
+/* line 21, ../sass/nav-bar.scss */
+.nav-bar-comp .authorization-btn {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  /* line 21, ../sass/nav-bar.scss */
+  .nav-bar-comp .authorization-btn {
+    justify-content: flex-end;
+  }
+}
+/* line 29, ../sass/nav-bar.scss */
+.nav-bar-comp .authorization-btn button {
+  background: none;
+  border: none;
+  color: #85939f;
+  cursor: pointer;
+}
+@media (max-width: 568px) {
+  /* line 29, ../sass/nav-bar.scss */
+  .nav-bar-comp .authorization-btn button {
+    margin-bottom: 18px;
+  }
+}
+/* line 39, ../sass/nav-bar.scss */
+.nav-bar-comp .authorization-btn button:not(:first-child) {
+  margin-left: 35px;
+}
+/* line 43, ../sass/nav-bar.scss */
+.nav-bar-comp .authorization-btn button[name="login"]:before {
+  content: url("../images/login.png");
+  margin-right: 4px;
+}
+/* line 48, ../sass/nav-bar.scss */
+.nav-bar-comp .authorization-btn button[name="register"]:before {
+  content: url("../images/registr.png");
+  margin-right: 4px;
+}
+/* line 55, ../sass/nav-bar.scss */
+.nav-bar-comp .navbar {
+  padding: 0;
+}
+/* line 59, ../sass/nav-bar.scss */
+.nav-bar-comp .navbar-collapse {
+  position: relative;
+}
+/* line 63, ../sass/nav-bar.scss */
+.nav-bar-comp .navbar-nav {
+  width: 100%;
+  height: 100%;
+}
+/* line 68, ../sass/nav-bar.scss */
+.nav-bar-comp .navbar-nav li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 14.3%;
+}
+/* line 76, ../sass/nav-bar.scss */
+.nav-bar-comp .yellow:hover {
+  background-color: #ffae00;
+}
+/* line 80, ../sass/nav-bar.scss */
+.nav-bar-comp .orange:hover {
+  background-color: #fc7100;
+}
+/* line 84, ../sass/nav-bar.scss */
+.nav-bar-comp .crimson:hover {
+  background-color: #e51c5e;
+}
+/* line 88, ../sass/nav-bar.scss */
+.nav-bar-comp .violet:hover {
+  background-color: #ae0f8d;
+}
+/* line 92, ../sass/nav-bar.scss */
+.nav-bar-comp .purple:hover {
+  background-color: #6d0fae;
+}
+/* line 96, ../sass/nav-bar.scss */
+.nav-bar-comp .midnight:hover {
+  background-color: #33227a;
+}
+/* line 100, ../sass/nav-bar.scss */
+.nav-bar-comp .blue:hover {
+  background-color: #0c8fcc;
+}
