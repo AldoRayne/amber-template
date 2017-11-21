@@ -84,36 +84,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/welcome-section.scss */
 .welcome-section {
+  position: relative;
   width: 100%;
-  min-height: 100vh;
-  background-color: #cacaca;
-  padding-top: 110px;
+  height: 950px;
+}
+/* line 6, ../sass/welcome-section.scss */
+.welcome-section img {
+  width: 100%;
+  height: 950px;
+}
+/* line 11, ../sass/welcome-section.scss */
+.welcome-section .carousel {
+  position: absolute;
+  width: 100%;
+}
+/* line 15, ../sass/welcome-section.scss */
+.welcome-section .carousel-indicators {
+  bottom: 50px;
+}
+/* line 18, ../sass/welcome-section.scss */
+.welcome-section .carousel-indicators .active {
+  background-color: #02baab;
 }
 
 /* line 1, ../sass/works.scss */
 .works {
+  position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
   background-color: #0c8fcc;
 }
-/* line 8, ../sass/works.scss */
+/* line 9, ../sass/works.scss */
 .works header h2 {
   color: #ffffff;
 }
-/* line 11, ../sass/works.scss */
+/* line 12, ../sass/works.scss */
 .works header h2:before {
   content: "";
   background-color: #ffffff;
 }
-/* line 17, ../sass/works.scss */
+/* line 18, ../sass/works.scss */
 .works header p {
   color: #ffffff;
 }
-/* line 22, ../sass/works.scss */
+/* line 23, ../sass/works.scss */
 .works ul {
   margin-top: 46px;
 }
-/* line 25, ../sass/works.scss */
+/* line 26, ../sass/works.scss */
 .works ul li {
   position: relative;
   display: flex;
@@ -121,18 +139,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-/* line 33, ../sass/works.scss */
+/* line 34, ../sass/works.scss */
 .works ul div {
   position: relative;
   box-sizing: border-box;
 }
-/* line 38, ../sass/works.scss */
+/* line 39, ../sass/works.scss */
 .works ul div:hover p {
   opacity: 0;
   transition: 0.5s;
   cursor: default;
 }
-/* line 44, ../sass/works.scss */
+/* line 45, ../sass/works.scss */
 .works ul div:hover:before {
   position: absolute;
   width: 40px;
@@ -141,7 +159,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: calc(50% - 70px);
   left: calc(50% - 20px);
 }
-/* line 53, ../sass/works.scss */
+/* line 54, ../sass/works.scss */
 .works ul div p {
   position: absolute;
   bottom: 0;
@@ -150,17 +168,85 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/month-steal.scss */
 .month-steal {
+  position: relative;
   width: 100%;
   min-height: 450px;
 }
-/* line 5, ../sass/month-steal.scss */
+/* line 6, ../sass/month-steal.scss */
 .month-steal h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 10, ../sass/month-steal.scss */
+/* line 11, ../sass/month-steal.scss */
 .month-steal button {
   margin-top: 46px;
+}
+
+/* line 1, ../sass/ad-section.scss */
+.ad-section {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  padding-top: 50px;
+  background-color: #02baab;
+}
+/* line 8, ../sass/ad-section.scss */
+.ad-section p {
+  margin: 0 0 20px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+@media (min-width: 768px) {
+  /* line 8, ../sass/ad-section.scss */
+  .ad-section p {
+    text-align: center;
+  }
+}
+/* line 21, ../sass/ad-section.scss */
+.ad-section button {
+  width: 170px;
+  height: 40px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+/* line 28, ../sass/ad-section.scss */
+.ad-section .button-move {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 576px) {
+  /* line 28, ../sass/ad-section.scss */
+  .ad-section .button-move {
+    justify-content: center;
+  }
+}
+
+/* line 1, ../sass/features.scss */
+.features {
+  width: 100%;
+  height: 500px;
+}
+/* line 5, ../sass/features.scss */
+.features h2 {
+  margin-bottom: 55px;
+}
+/* line 8, ../sass/features.scss */
+.features h2:before {
+  content: "";
+  background-color: #eeeeee;
+}
+/* line 14, ../sass/features.scss */
+.features ul {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 19, ../sass/features.scss */
+.features li {
+  width: 356px;
+  margin-bottom: 70px;
 }
 
 /* line 1, ../sass/containers.scss */
