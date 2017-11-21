@@ -1,0 +1,24 @@
+/* line 1, ../sass/features.scss */
+.features {
+  width: 100%;
+  height: 500px;
+}
+/* line 5, ../sass/features.scss */
+.features h2 {
+  margin-bottom: 55px;
+}
+/* line 8, ../sass/features.scss */
+.features h2:before {
+  content: "";
+  background-color: #eeeeee;
+}
+/* line 14, ../sass/features.scss */
+.features ul {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 19, ../sass/features.scss */
+.features li {
+  width: 356px;
+  margin-bottom: 70px;
+}
