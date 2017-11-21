@@ -5,19 +5,19 @@
 @media (min-width: 576px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 500px;
+    width: 540px;
   }
 }
 @media (min-width: 768px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 740px;
+    width: 720px;
   }
 }
 @media (min-width: 992px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 992px;
+    width: 960px;
   }
 }
 @media (min-width: 1200px) {

@@ -3,22 +3,46 @@
   width: 100%;
   height: 500px;
 }
-/* line 5, ../sass/features.scss */
+/* line 6, ../sass/features.scss */
 .features h2 {
   margin-bottom: 55px;
 }
-/* line 8, ../sass/features.scss */
+/* line 9, ../sass/features.scss */
 .features h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 14, ../sass/features.scss */
-.features ul {
-  display: flex;
-  justify-content: space-between;
+/* line 15, ../sass/features.scss */
+.features h3 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
 }
-/* line 19, ../sass/features.scss */
-.features li {
-  width: 356px;
+/* line 23, ../sass/features.scss */
+.features ul li {
   margin-bottom: 70px;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) {
+  /* line 28, ../sass/features.scss */
+  .features ul li:nth-child(odd) {
+    padding-left: 50px;
+  }
+  /* line 31, ../sass/features.scss */
+  .features ul li:nth-child(even) {
+    padding-left: 120px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 37, ../sass/features.scss */
+  .features ul li:nth-child(even) {
+    padding-left: 80px;
+  }
+}
+/* line 42, ../sass/features.scss */
+.features ul li p {
+  width: 356px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
 }

@@ -239,14 +239,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #eeeeee;
 }
 /* line 14, ../sass/features.scss */
-.features ul {
-  display: flex;
-  justify-content: space-between;
+.features h3 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
 }
-/* line 19, ../sass/features.scss */
-.features li {
-  width: 356px;
+/* line 22, ../sass/features.scss */
+.features ul li {
   margin-bottom: 70px;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) {
+  /* line 27, ../sass/features.scss */
+  .features ul li:nth-child(odd) {
+    padding-left: 50px;
+  }
+  /* line 30, ../sass/features.scss */
+  .features ul li:nth-child(even) {
+    padding-left: 120px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 36, ../sass/features.scss */
+  .features ul li:nth-child(even) {
+    padding-left: 80px;
+  }
+}
+/* line 41, ../sass/features.scss */
+.features ul li p {
+  width: 356px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 1, ../sass/comments-section.scss */
+.comments-section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-color: #02baab;
+  margin-top: 100px;
+  padding-top: 130px;
+}
+/* line 9, ../sass/comments-section.scss */
+.comments-section blockquote {
+  position: relative;
+  width: 100%;
+}
+/* line 13, ../sass/comments-section.scss */
+.comments-section blockquote p {
+  width: 614px;
+  margin-left: calc(50% - 307px);
 }
 
 /* line 1, ../sass/containers.scss */
@@ -256,19 +300,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 576px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 500px;
+    width: 540px;
   }
 }
 @media (min-width: 768px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 740px;
+    width: 720px;
   }
 }
 @media (min-width: 992px) {
   /* line 1, ../sass/containers.scss */
   .container {
-    width: 992px;
+    width: 960px;
   }
 }
 @media (min-width: 1200px) {

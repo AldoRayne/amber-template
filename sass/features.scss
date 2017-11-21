@@ -11,13 +11,39 @@
     }
   }
 
-  ul {
-    display: flex;
-    justify-content: space-between;
+  h3 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
   }
 
-  li {
-    width: 356px;
-    margin-bottom: 70px;
+  ul {
+
+    li {
+      margin-bottom: 70px;
+      box-sizing: border-box;
+
+      @media (min-width: 992px) {
+        &:nth-child(odd) {
+          padding-left: 50px;
+        }
+        &:nth-child(even) {
+          padding-left: 120px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        &:nth-child(even) {
+          padding-left: 80px;
+        }
+      }
+
+      p {
+        width: 356px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+      }
+    }
   }
 }

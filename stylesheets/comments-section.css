@@ -1,0 +1,19 @@
+/* line 1, ../sass/comments-section.scss */
+.comments-section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-color: #02baab;
+  margin-top: 100px;
+  padding-top: 130px;
+}
+/* line 9, ../sass/comments-section.scss */
+.comments-section blockquote {
+  position: relative;
+  width: 100%;
+}
+/* line 13, ../sass/comments-section.scss */
+.comments-section blockquote p {
+  width: 614px;
+  margin-left: calc(50% - 307px);
+}
