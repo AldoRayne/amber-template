@@ -278,9 +278,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   width: 100%;
   height: 450px;
-  background-color: #02baab;
   margin-top: 100px;
-  padding-top: 130px;
+  padding-top: 185px;
+  background-color: #02554a;
 }
 /* line 9, ../sass/comments-section.scss */
 .comments-section blockquote {
@@ -288,9 +288,70 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 /* line 13, ../sass/comments-section.scss */
+.comments-section blockquote:before {
+  position: absolute;
+  content: url("../images/quotes.png");
+  width: 45px;
+  height: 37px;
+  top: -80px;
+  left: calc(50% - 22.5px);
+}
+/* line 22, ../sass/comments-section.scss */
 .comments-section blockquote p {
   width: 614px;
   margin-left: calc(50% - 307px);
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* line 32, ../sass/comments-section.scss */
+.comments-section blockquote footer p {
+  margin-top: 40px;
+  color: #02baab;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/blog-posts-section.scss */
+.blog-posts-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+/* line 6, ../sass/blog-posts-section.scss */
+.blog-posts-section h2 {
+  margin-bottom: 69px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* line 12, ../sass/blog-posts-section.scss */
+.blog-posts-section h2:before {
+  content: "";
+  background-color: #eeeeee;
+}
+/* line 20, ../sass/blog-posts-section.scss */
+.blog-posts-section ul li {
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 30px;
+}
+/* line 25, ../sass/blog-posts-section.scss */
+.blog-posts-section ul h3 {
+  width: 240px;
+  margin-top: 30px;
+  color: #02baab;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* line 34, ../sass/blog-posts-section.scss */
+.blog-posts-section ul p {
+  width: 287px;
+  margin-top: 28px;
 }
 
 /* line 1, ../sass/containers.scss */

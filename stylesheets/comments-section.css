@@ -3,9 +3,9 @@
   position: relative;
   width: 100%;
   height: 450px;
-  background-color: #02baab;
   margin-top: 100px;
-  padding-top: 130px;
+  padding-top: 185px;
+  background-color: #02554a;
 }
 /* line 9, ../sass/comments-section.scss */
 .comments-section blockquote {
@@ -13,7 +13,30 @@
   width: 100%;
 }
 /* line 13, ../sass/comments-section.scss */
+.comments-section blockquote:before {
+  position: absolute;
+  content: url("../images/quotes.png");
+  width: 45px;
+  height: 37px;
+  top: -80px;
+  left: calc(50% - 22.5px);
+}
+/* line 22, ../sass/comments-section.scss */
 .comments-section blockquote p {
   width: 614px;
   margin-left: calc(50% - 307px);
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* line 32, ../sass/comments-section.scss */
+.comments-section blockquote footer p {
+  margin-top: 40px;
+  color: #02baab;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
 }
