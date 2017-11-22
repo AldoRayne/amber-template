@@ -1,0 +1,15 @@
+.company-exp {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #02baab;
+
+  h2 {
+    color: #ffffff;
+
+    &:before {
+      content: "";
+      background-color: #ffffff;
+    }
+  }
+}

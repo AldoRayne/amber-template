@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -339,19 +340,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 30px;
 }
-/* line 25, ../sass/blog-posts-section.scss */
+/* line 27, ../sass/blog-posts-section.scss */
+.blog-posts-section ul a h3, .blog-posts-section ul a p {
+  color: #02baab;
+}
+/* line 32, ../sass/blog-posts-section.scss */
 .blog-posts-section ul h3 {
   width: 240px;
   margin-top: 30px;
-  color: #02baab;
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
 }
-/* line 34, ../sass/blog-posts-section.scss */
+/* line 40, ../sass/blog-posts-section.scss */
 .blog-posts-section ul p {
   width: 287px;
   margin-top: 28px;
+}
+
+/* line 1, ../sass/company-exp-section.scss */
+.company-exp {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #02baab;
+}
+/* line 7, ../sass/company-exp-section.scss */
+.company-exp h2 {
+  color: #ffffff;
+}
+/* line 10, ../sass/company-exp-section.scss */
+.company-exp h2:before {
+  content: "";
+  background-color: #ffffff;
 }
 
 /* line 1, ../sass/containers.scss */
@@ -536,4 +557,123 @@ body p {
   font-weight: 300;
   line-height: 30px;
   margin-top: 51px;
+}
+
+/* line 2, ../sass/progress-bar.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/progress-bar.scss */
+.set-size {
+  font-size: 10em;
+}
+
+/* line 11, ../sass/progress-bar.scss */
+.charts-container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 16, ../sass/progress-bar.scss */
+.pie-wrapper {
+  height: 1em;
+  width: 1em;
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+
+/* line 23, ../sass/progress-bar.scss */
+.pie-wrapper:nth-child(3n+1) {
+  clear: both;
+}
+
+/* line 26, ../sass/progress-bar.scss */
+.pie-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+/* line 34, ../sass/progress-bar.scss */
+.pie-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #3498db;
+  border-radius: 50%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+/* line 44, ../sass/progress-bar.scss */
+.pie-wrapper .label {
+  background-color: #02baab;
+  border-radius: 50%;
+  bottom: 0.4em;
+  color: #ecf0f1;
+  cursor: default;
+  display: block;
+  font-size: 0.25em;
+  left: 0.4em;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+/* line 59, ../sass/progress-bar.scss */
+.pie-wrapper .label .smaller {
+  color: #bdc3c7;
+  font-size: .45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+
+/* line 65, ../sass/progress-bar.scss */
+.pie-wrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #bdc3c7;
+  border-radius: 50%;
+}
+
+/* line 71, ../sass/progress-bar.scss */
+.pie-wrapper .style-2 .label {
+  background: none;
+  color: #7f8c8d;
+}
+
+/* line 75, ../sass/progress-bar.scss */
+.pie-wrapper .style-2 .label .smaller {
+  color: #bdc3c7;
+}
+
+/* line 79, ../sass/progress-bar.scss */
+.pie-wrapper.progress-95 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+
+/* line 82, ../sass/progress-bar.scss */
+.pie-wrapper.progress-95 .pie .right-side {
+  transform: rotate(180deg);
+}
+
+/* line 85, ../sass/progress-bar.scss */
+.pie-wrapper.progress-95 .pie .half-circle {
+  border-color: #e74c3c;
+}
+
+/* line 88, ../sass/progress-bar.scss */
+.pie-wrapper.progress-95 .pie .left-side {
+  transform: rotate(360deg);
 }

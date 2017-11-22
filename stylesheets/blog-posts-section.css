@@ -21,16 +21,19 @@
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 30px;
 }
-/* line 25, ../sass/blog-posts-section.scss */
+/* line 27, ../sass/blog-posts-section.scss */
+.blog-posts-section ul a h3, .blog-posts-section ul a p {
+  color: #02baab;
+}
+/* line 32, ../sass/blog-posts-section.scss */
 .blog-posts-section ul h3 {
   width: 240px;
   margin-top: 30px;
-  color: #02baab;
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
 }
-/* line 34, ../sass/blog-posts-section.scss */
+/* line 40, ../sass/blog-posts-section.scss */
 .blog-posts-section ul p {
   width: 287px;
   margin-top: 28px;

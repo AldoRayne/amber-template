@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK",
+"sources": ["company-exp-section.scss"],
+"names": [],
+"file": "company-exp-section.css"
+}
