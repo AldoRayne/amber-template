@@ -1,0 +1,34 @@
+.our-team-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+
+  h2 {
+    color: #3b4954;
+    margin-bottom: 50px;
+
+    &:before {
+      content: "";
+      background-color: #eeeeee;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 136px;
+    height: 40px;
+    margin: 30px 0;
+
+    &:focus {
+      background-color: #02baab;
+      color: #ffffff;
+      border-color: #02baab;
+      outline: none;
+    }
+  }
+}
