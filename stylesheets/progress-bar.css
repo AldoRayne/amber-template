@@ -88,23 +88,41 @@
 }
 
 /* line 81, ../sass/progress-bar.scss */
+.big-num {
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 48px;
+}
+
+/* line 89, ../sass/progress-bar.scss */
+.description {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 97, ../sass/progress-bar.scss */
 .pie-wrapper .style-2 .label {
   position: relative;
   background: none;
   color: #7f8c8d;
 }
 
-/* line 87, ../sass/progress-bar.scss */
+/* line 103, ../sass/progress-bar.scss */
 .label {
   position: relative;
 }
-/* line 90, ../sass/progress-bar.scss */
+/* line 106, ../sass/progress-bar.scss */
 .label img {
   position: absolute;
   left: calc(50% - 50px);
   top: calc(50% - 50px);
 }
-/* line 96, ../sass/progress-bar.scss */
+/* line 112, ../sass/progress-bar.scss */
 .label.gears:before {
   position: absolute;
   content: url("../images/gears.png");
@@ -114,7 +132,7 @@
   left: calc(50% - 32px);
   top: calc(50% - 34px);
 }
-/* line 106, ../sass/progress-bar.scss */
+/* line 122, ../sass/progress-bar.scss */
 .label.phone:before {
   position: absolute;
   content: url("../images/phone.png");
@@ -124,7 +142,7 @@
   left: calc(50% - 30px);
   top: calc(50% - 37px);
 }
-/* line 116, ../sass/progress-bar.scss */
+/* line 132, ../sass/progress-bar.scss */
 .label.rocket:before {
   position: absolute;
   content: url("../images/rocket.png");
@@ -135,22 +153,22 @@
   top: calc(50% - 34px);
 }
 
-/* line 127, ../sass/progress-bar.scss */
+/* line 143, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie {
   clip: rect(auto, auto, auto, auto);
 }
 
-/* line 131, ../sass/progress-bar.scss */
+/* line 147, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .right-side {
   transform: rotate(350deg);
 }
 
-/* line 135, ../sass/progress-bar.scss */
+/* line 151, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .half-circle {
   border-color: #ffffff;
 }
 
-/* line 139, ../sass/progress-bar.scss */
+/* line 155, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .left-side {
   transform: rotate(180deg);
 }

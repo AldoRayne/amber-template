@@ -8,8 +8,9 @@
 /* line 7, ../sass/company-exp-section.scss */
 .company-exp h2 {
   color: #ffffff;
+  margin-bottom: 50px;
 }
-/* line 10, ../sass/company-exp-section.scss */
+/* line 11, ../sass/company-exp-section.scss */
 .company-exp h2:before {
   content: "";
   background-color: #ffffff;

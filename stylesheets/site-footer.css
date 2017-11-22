@@ -1,0 +1,167 @@
+/* line 1, ../sass/site-footer.scss */
+.site-footer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1f2a32;
+}
+/* line 7, ../sass/site-footer.scss */
+.site-footer h3 {
+  margin: 73px 0 51px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 35px;
+}
+/* line 15, ../sass/site-footer.scss */
+.site-footer .follow {
+  margin-top: 70px;
+}
+/* line 18, ../sass/site-footer.scss */
+.site-footer .follow li {
+  margin-bottom: 40px;
+}
+/* line 25, ../sass/site-footer.scss */
+.site-footer ul p {
+  margin-top: 0;
+}
+/* line 29, ../sass/site-footer.scss */
+.site-footer ul li {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 210px;
+}
+/* line 39, ../sass/site-footer.scss */
+.site-footer ul .latest-tweets {
+  left: 20px;
+}
+/* line 42, ../sass/site-footer.scss */
+.site-footer ul .latest-tweets:before {
+  position: absolute;
+  content: url("../images/twitter.png");
+  width: 15px;
+  height: 14px;
+  left: -20px;
+  top: 0;
+}
+/* line 52, ../sass/site-footer.scss */
+.site-footer ul .flag {
+  left: 20px;
+}
+/* line 55, ../sass/site-footer.scss */
+.site-footer ul .flag:before {
+  position: absolute;
+  content: url("../images/flag.png");
+  width: 14px;
+  height: 13px;
+  left: -20px;
+  top: 0;
+}
+/* line 65, ../sass/site-footer.scss */
+.site-footer ul .call {
+  left: 20px;
+}
+/* line 68, ../sass/site-footer.scss */
+.site-footer ul .call:before {
+  position: absolute;
+  content: url("../images/call.png");
+  width: 13px;
+  height: 14px;
+  left: -20px;
+  top: 0;
+}
+/* line 78, ../sass/site-footer.scss */
+.site-footer ul .mail {
+  left: 20px;
+}
+/* line 81, ../sass/site-footer.scss */
+.site-footer ul .mail:before {
+  position: absolute;
+  content: url("../images/mail.png");
+  width: 13px;
+  height: 10px;
+  left: -20px;
+  top: 0;
+}
+/* line 91, ../sass/site-footer.scss */
+.site-footer ul .follow-fb {
+  padding-left: 70px;
+}
+/* line 94, ../sass/site-footer.scss */
+.site-footer ul .follow-fb:before {
+  position: absolute;
+  content: url("../images/follow-fb.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 104, ../sass/site-footer.scss */
+.site-footer ul .follow-twitt {
+  padding-left: 70px;
+}
+/* line 107, ../sass/site-footer.scss */
+.site-footer ul .follow-twitt:before {
+  position: absolute;
+  content: url("../images/follow-twitt.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 117, ../sass/site-footer.scss */
+.site-footer ul .follow-u2b {
+  padding-left: 70px;
+}
+/* line 120, ../sass/site-footer.scss */
+.site-footer ul .follow-u2b:before {
+  position: absolute;
+  content: url("../images/follow-u2b.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 130, ../sass/site-footer.scss */
+.site-footer ul .follow-inst {
+  padding-left: 70px;
+}
+/* line 133, ../sass/site-footer.scss */
+.site-footer ul .follow-inst:before {
+  position: absolute;
+  content: url("../images/follow-inst.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 143, ../sass/site-footer.scss */
+.site-footer ul .follow-pint {
+  padding-left: 70px;
+}
+/* line 146, ../sass/site-footer.scss */
+.site-footer ul .follow-pint:before {
+  position: absolute;
+  content: url("../images/follow-pint.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 157, ../sass/site-footer.scss */
+.site-footer footer {
+  margin-top: 85px;
+}
+/* line 160, ../sass/site-footer.scss */
+.site-footer footer p {
+  margin-top: 0;
+  width: 233px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}

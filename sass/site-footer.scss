@@ -1,0 +1,169 @@
+.site-footer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1f2a32;
+
+  h3 {
+    margin: 73px 0 51px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+  }
+
+  .follow {
+    margin-top: 70px;
+
+    li {
+      margin-bottom: 40px;
+    }
+  }
+
+  ul {
+
+    p {
+      margin-top: 0;
+    }
+
+    li {
+      position: relative;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #ffffff;
+      margin-bottom: 30px;
+      width: 210px;
+    }
+
+    .latest-tweets {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/twitter.png");
+        width: 15px;
+        height: 14px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .flag {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/flag.png");
+        width: 14px;
+        height: 13px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .call {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/call.png");
+        width: 13px;
+        height: 14px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .mail {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/mail.png");
+        width: 13px;
+        height: 10px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .follow-fb {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/follow-fb.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-twitt {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/follow-twitt.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-u2b {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/follow-u2b.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-inst {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/follow-inst.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-pint {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../images/follow-pint.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+  }
+
+  footer {
+    margin-top: 85px;
+
+    p {
+      margin-top: 0;
+      width: 233px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+}

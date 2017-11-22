@@ -368,8 +368,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 7, ../sass/company-exp-section.scss */
 .company-exp h2 {
   color: #ffffff;
+  margin-bottom: 50px;
 }
-/* line 10, ../sass/company-exp-section.scss */
+/* line 11, ../sass/company-exp-section.scss */
 .company-exp h2:before {
   content: "";
   background-color: #ffffff;
@@ -409,6 +410,174 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ffffff;
   border-color: #02baab;
   outline: none;
+}
+
+/* line 1, ../sass/site-footer.scss */
+.site-footer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1f2a32;
+}
+/* line 7, ../sass/site-footer.scss */
+.site-footer h3 {
+  margin: 73px 0 51px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 35px;
+}
+/* line 15, ../sass/site-footer.scss */
+.site-footer .follow {
+  margin-top: 70px;
+}
+/* line 18, ../sass/site-footer.scss */
+.site-footer .follow li {
+  margin-bottom: 40px;
+}
+/* line 25, ../sass/site-footer.scss */
+.site-footer ul p {
+  margin-top: 0;
+}
+/* line 29, ../sass/site-footer.scss */
+.site-footer ul li {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 210px;
+}
+/* line 39, ../sass/site-footer.scss */
+.site-footer ul .latest-tweets {
+  left: 20px;
+}
+/* line 42, ../sass/site-footer.scss */
+.site-footer ul .latest-tweets:before {
+  position: absolute;
+  content: url("../images/twitter.png");
+  width: 15px;
+  height: 14px;
+  left: -20px;
+  top: 0;
+}
+/* line 52, ../sass/site-footer.scss */
+.site-footer ul .flag {
+  left: 20px;
+}
+/* line 55, ../sass/site-footer.scss */
+.site-footer ul .flag:before {
+  position: absolute;
+  content: url("../images/flag.png");
+  width: 14px;
+  height: 13px;
+  left: -20px;
+  top: 0;
+}
+/* line 65, ../sass/site-footer.scss */
+.site-footer ul .call {
+  left: 20px;
+}
+/* line 68, ../sass/site-footer.scss */
+.site-footer ul .call:before {
+  position: absolute;
+  content: url("../images/call.png");
+  width: 13px;
+  height: 14px;
+  left: -20px;
+  top: 0;
+}
+/* line 78, ../sass/site-footer.scss */
+.site-footer ul .mail {
+  left: 20px;
+}
+/* line 81, ../sass/site-footer.scss */
+.site-footer ul .mail:before {
+  position: absolute;
+  content: url("../images/mail.png");
+  width: 13px;
+  height: 10px;
+  left: -20px;
+  top: 0;
+}
+/* line 91, ../sass/site-footer.scss */
+.site-footer ul .follow-fb {
+  padding-left: 70px;
+}
+/* line 94, ../sass/site-footer.scss */
+.site-footer ul .follow-fb:before {
+  position: absolute;
+  content: url("../images/follow-fb.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 104, ../sass/site-footer.scss */
+.site-footer ul .follow-twitt {
+  padding-left: 70px;
+}
+/* line 107, ../sass/site-footer.scss */
+.site-footer ul .follow-twitt:before {
+  position: absolute;
+  content: url("../images/follow-twitt.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 117, ../sass/site-footer.scss */
+.site-footer ul .follow-u2b {
+  padding-left: 70px;
+}
+/* line 120, ../sass/site-footer.scss */
+.site-footer ul .follow-u2b:before {
+  position: absolute;
+  content: url("../images/follow-u2b.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 130, ../sass/site-footer.scss */
+.site-footer ul .follow-inst {
+  padding-left: 70px;
+}
+/* line 133, ../sass/site-footer.scss */
+.site-footer ul .follow-inst:before {
+  position: absolute;
+  content: url("../images/follow-inst.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 143, ../sass/site-footer.scss */
+.site-footer ul .follow-pint {
+  padding-left: 70px;
+}
+/* line 146, ../sass/site-footer.scss */
+.site-footer ul .follow-pint:before {
+  position: absolute;
+  content: url("../images/follow-pint.png");
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: calc(50% - 25px);
+}
+/* line 157, ../sass/site-footer.scss */
+.site-footer footer {
+  margin-top: 85px;
+}
+/* line 160, ../sass/site-footer.scss */
+.site-footer footer p {
+  margin-top: 0;
+  width: 233px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 /* line 1, ../sass/containers.scss */
@@ -684,23 +853,41 @@ body p {
 }
 
 /* line 81, ../sass/progress-bar.scss */
+.big-num {
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 48px;
+}
+
+/* line 89, ../sass/progress-bar.scss */
+.description {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 97, ../sass/progress-bar.scss */
 .pie-wrapper .style-2 .label {
   position: relative;
   background: none;
   color: #7f8c8d;
 }
 
-/* line 87, ../sass/progress-bar.scss */
+/* line 103, ../sass/progress-bar.scss */
 .label {
   position: relative;
 }
-/* line 90, ../sass/progress-bar.scss */
+/* line 106, ../sass/progress-bar.scss */
 .label img {
   position: absolute;
   left: calc(50% - 50px);
   top: calc(50% - 50px);
 }
-/* line 96, ../sass/progress-bar.scss */
+/* line 112, ../sass/progress-bar.scss */
 .label.gears:before {
   position: absolute;
   content: url("../images/gears.png");
@@ -710,7 +897,7 @@ body p {
   left: calc(50% - 32px);
   top: calc(50% - 34px);
 }
-/* line 106, ../sass/progress-bar.scss */
+/* line 122, ../sass/progress-bar.scss */
 .label.phone:before {
   position: absolute;
   content: url("../images/phone.png");
@@ -720,7 +907,7 @@ body p {
   left: calc(50% - 30px);
   top: calc(50% - 37px);
 }
-/* line 116, ../sass/progress-bar.scss */
+/* line 132, ../sass/progress-bar.scss */
 .label.rocket:before {
   position: absolute;
   content: url("../images/rocket.png");
@@ -731,22 +918,22 @@ body p {
   top: calc(50% - 34px);
 }
 
-/* line 127, ../sass/progress-bar.scss */
+/* line 143, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie {
   clip: rect(auto, auto, auto, auto);
 }
 
-/* line 131, ../sass/progress-bar.scss */
+/* line 147, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .right-side {
   transform: rotate(350deg);
 }
 
-/* line 135, ../sass/progress-bar.scss */
+/* line 151, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .half-circle {
   border-color: #ffffff;
 }
 
-/* line 139, ../sass/progress-bar.scss */
+/* line 155, ../sass/progress-bar.scss */
 .pie-wrapper.progress-95 .pie .left-side {
   transform: rotate(180deg);
 }
