@@ -33,25 +33,36 @@
       height: 290px;
     }
 
+    .inner-links {
+      position: absolute;
+      width: 40px;
+      height: 140px;
+      left: calc(50% - 20px);
+      top: 75px;
+      display: none;
+      transition: 4s;
+
+      img {
+        margin-bottom: 5px;
+      }
+    }
+
     .item-list {
       position: relative;
       box-sizing: border-box;
 
+
       &:hover {
+
         p {
           opacity: 0;
           transition: 0.5s;
           cursor: default;
         }
+      }
 
-        &:before {
-          position: absolute;
-          width: 40px;
-          height: 140px;
-          content: url("../images/ellipse-heart.png");
-          top: calc(50% - 70px);
-          left: calc(50% - 20px);
-        }
+      &:hover .inner-links {
+        display: block;
       }
     }
 

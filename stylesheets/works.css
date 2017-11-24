@@ -33,33 +33,42 @@
   height: 290px;
 }
 /* line 36, ../sass/works.scss */
+.works ul .inner-links {
+  position: absolute;
+  width: 40px;
+  height: 140px;
+  left: calc(50% - 20px);
+  top: 75px;
+  display: none;
+  transition: 4s;
+}
+/* line 45, ../sass/works.scss */
+.works ul .inner-links img {
+  margin-bottom: 5px;
+}
+/* line 50, ../sass/works.scss */
 .works ul .item-list {
   position: relative;
   box-sizing: border-box;
 }
-/* line 41, ../sass/works.scss */
+/* line 57, ../sass/works.scss */
 .works ul .item-list:hover p {
   opacity: 0;
   transition: 0.5s;
   cursor: default;
 }
-/* line 47, ../sass/works.scss */
-.works ul .item-list:hover:before {
-  position: absolute;
-  width: 40px;
-  height: 140px;
-  content: url("../images/ellipse-heart.png");
-  top: calc(50% - 70px);
-  left: calc(50% - 20px);
+/* line 64, ../sass/works.scss */
+.works ul .item-list:hover .inner-links {
+  display: block;
 }
-/* line 58, ../sass/works.scss */
+/* line 69, ../sass/works.scss */
 .works ul .list-inner {
   padding: 0 20px;
   position: absolute;
   bottom: 0;
   width: 290px;
 }
-/* line 64, ../sass/works.scss */
+/* line 75, ../sass/works.scss */
 .works ul .list-inner p {
   margin-top: 0;
 }
