@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Lato|Oxygen:300");
+@import url("https://fonts.googleapis.com/css?family=Lato|Oxygen:300,400");
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -654,7 +653,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 12px;
 }
 
-/* line 1, ../sass/site-footer.scss */
+/* line 3, ../sass/site-footer.scss */
 .site-footer {
   position: relative;
   width: 100%;
@@ -662,27 +661,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 100px;
   background-color: #1f2a32;
 }
-/* line 8, ../sass/site-footer.scss */
+/* line 10, ../sass/site-footer.scss */
+.site-footer a {
+  color: #02baab;
+  font-weight: 300;
+}
+/* line 15, ../sass/site-footer.scss */
 .site-footer h3 {
   margin: 73px 0 51px;
   color: #ffffff;
   font-size: 22px;
   font-weight: 300;
   line-height: 35px;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
 }
-/* line 16, ../sass/site-footer.scss */
+/* line 24, ../sass/site-footer.scss */
 .site-footer .follow {
   margin-top: 70px;
 }
-/* line 19, ../sass/site-footer.scss */
+/* line 27, ../sass/site-footer.scss */
 .site-footer .follow li {
   margin-bottom: 40px;
 }
-/* line 26, ../sass/site-footer.scss */
+/* line 31, ../sass/site-footer.scss */
+.site-footer .follow a {
+  color: #ffffff;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* line 42, ../sass/site-footer.scss */
 .site-footer ul p {
   margin-top: 0;
 }
-/* line 30, ../sass/site-footer.scss */
+/* line 46, ../sass/site-footer.scss */
 .site-footer ul li {
   position: relative;
   font-size: 12px;
@@ -692,11 +704,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 30px;
   width: 210px;
 }
-/* line 40, ../sass/site-footer.scss */
+/* line 56, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets {
   left: 20px;
 }
-/* line 43, ../sass/site-footer.scss */
+/* line 59, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets:before {
   position: absolute;
   content: url("../images/twitter.png");
@@ -705,11 +717,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 53, ../sass/site-footer.scss */
+/* line 69, ../sass/site-footer.scss */
 .site-footer ul .flag {
   left: 20px;
 }
-/* line 56, ../sass/site-footer.scss */
+/* line 72, ../sass/site-footer.scss */
 .site-footer ul .flag:before {
   position: absolute;
   content: url("../images/flag.png");
@@ -718,11 +730,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 66, ../sass/site-footer.scss */
+/* line 82, ../sass/site-footer.scss */
 .site-footer ul .call {
   left: 20px;
 }
-/* line 69, ../sass/site-footer.scss */
+/* line 85, ../sass/site-footer.scss */
 .site-footer ul .call:before {
   position: absolute;
   content: url("../images/call.png");
@@ -731,11 +743,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 79, ../sass/site-footer.scss */
+/* line 95, ../sass/site-footer.scss */
 .site-footer ul .mail {
   left: 20px;
 }
-/* line 82, ../sass/site-footer.scss */
+/* line 98, ../sass/site-footer.scss */
 .site-footer ul .mail:before {
   position: absolute;
   content: url("../images/mail.png");
@@ -744,11 +756,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 92, ../sass/site-footer.scss */
+/* line 108, ../sass/site-footer.scss */
 .site-footer ul .follow-fb {
   padding-left: 70px;
 }
-/* line 95, ../sass/site-footer.scss */
+/* line 111, ../sass/site-footer.scss */
 .site-footer ul .follow-fb:before {
   position: absolute;
   content: url("../images/follow-fb.png");
@@ -757,11 +769,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 105, ../sass/site-footer.scss */
+/* line 121, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt {
   padding-left: 70px;
 }
-/* line 108, ../sass/site-footer.scss */
+/* line 124, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt:before {
   position: absolute;
   content: url("../images/follow-twitt.png");
@@ -770,11 +782,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 118, ../sass/site-footer.scss */
+/* line 134, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b {
   padding-left: 70px;
 }
-/* line 121, ../sass/site-footer.scss */
+/* line 137, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b:before {
   position: absolute;
   content: url("../images/follow-u2b.png");
@@ -783,11 +795,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 131, ../sass/site-footer.scss */
+/* line 147, ../sass/site-footer.scss */
 .site-footer ul .follow-inst {
   padding-left: 70px;
 }
-/* line 134, ../sass/site-footer.scss */
+/* line 150, ../sass/site-footer.scss */
 .site-footer ul .follow-inst:before {
   position: absolute;
   content: url("../images/follow-inst.png");
@@ -796,11 +808,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 144, ../sass/site-footer.scss */
+/* line 160, ../sass/site-footer.scss */
 .site-footer ul .follow-pint {
   padding-left: 70px;
 }
-/* line 147, ../sass/site-footer.scss */
+/* line 163, ../sass/site-footer.scss */
 .site-footer ul .follow-pint:before {
   position: absolute;
   content: url("../images/follow-pint.png");
@@ -809,11 +821,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 158, ../sass/site-footer.scss */
+/* line 174, ../sass/site-footer.scss */
 .site-footer footer {
   margin-top: 85px;
 }
-/* line 161, ../sass/site-footer.scss */
+/* line 177, ../sass/site-footer.scss */
 .site-footer footer p {
   margin-top: 0;
   width: 233px;
@@ -821,6 +833,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 12px;
   font-weight: 300;
   line-height: 24px;
+}
+/* line 187, ../sass/site-footer.scss */
+.site-footer .get-in-touch li {
+  color: #85939f;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 194, ../sass/site-footer.scss */
+.site-footer .get-in-touch li span {
+  color: #ffffff;
+}
+/* line 199, ../sass/site-footer.scss */
+.site-footer .latest-tweets li {
+  color: #ffffff;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 206, ../sass/site-footer.scss */
+.site-footer .latest-tweets li p {
+  color: #85939f;
+  font-weight: 300;
+  font-size: 12px;
+}
+/* line 215, ../sass/site-footer.scss */
+.site-footer .popular-posts li p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /* line 1, ../sass/containers.scss */
