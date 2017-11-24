@@ -20,28 +20,34 @@
 
     li {
       border-bottom: 1px solid #c3c3c3;
-      padding-bottom: 30px;
       margin-bottom: 50px;
     }
 
     a{
+      text-decoration: none;
+      color: #02baab;
 
-      h3, p {
-        color: #02baab;
+      &:hover {
+        color: #6d0fae;
       }
     }
 
     h3 {
-      width: 240px;
+      width: 287px;
       margin-top: 30px;
       font-size: 24px;
       font-weight: 300;
       line-height: 30px;
+      font-family: $Oxygen-Font;
     }
 
     p {
       width: 287px;
       margin-top: 28px;
+    }
+
+    span {
+      margin-left: 130px;
     }
   }
 }

@@ -212,3 +212,19 @@
   line-height: 24px;
   color: #ffffff;
 }
+/* line 223, ../sass/site-footer.scss */
+.site-footer .violet {
+  border-top: 15px solid #7827a9;
+}
+/* line 227, ../sass/site-footer.scss */
+.site-footer .blue {
+  border-top: 15px solid #0c8fcc;
+}
+/* line 231, ../sass/site-footer.scss */
+.site-footer .red {
+  border-top: 15px solid #de1c5c;
+}
+/* line 235, ../sass/site-footer.scss */
+.site-footer .orange {
+  border-top: 15px solid #ffae00;
+}

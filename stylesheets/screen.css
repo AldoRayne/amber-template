@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .head {
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 9999;
 }
 /* line 6, ../sass/header.scss */
 .head .container-fluid {
@@ -457,25 +457,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 21, ../sass/blog-posts-section.scss */
 .blog-posts-section ul li {
   border-bottom: 1px solid #c3c3c3;
-  padding-bottom: 30px;
   margin-bottom: 50px;
 }
-/* line 29, ../sass/blog-posts-section.scss */
-.blog-posts-section ul a h3, .blog-posts-section ul a p {
+/* line 26, ../sass/blog-posts-section.scss */
+.blog-posts-section ul a {
+  text-decoration: none;
   color: #02baab;
 }
-/* line 34, ../sass/blog-posts-section.scss */
+/* line 30, ../sass/blog-posts-section.scss */
+.blog-posts-section ul a:hover {
+  color: #6d0fae;
+}
+/* line 35, ../sass/blog-posts-section.scss */
 .blog-posts-section ul h3 {
-  width: 240px;
+  width: 287px;
   margin-top: 30px;
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
 }
-/* line 42, ../sass/blog-posts-section.scss */
+/* line 44, ../sass/blog-posts-section.scss */
 .blog-posts-section ul p {
   width: 287px;
   margin-top: 28px;
+}
+/* line 49, ../sass/blog-posts-section.scss */
+.blog-posts-section ul span {
+  margin-left: 130px;
 }
 
 /* line 3, ../sass/company-exp-section.scss */
@@ -866,6 +875,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   line-height: 24px;
   color: #ffffff;
+}
+/* line 223, ../sass/site-footer.scss */
+.site-footer .violet {
+  border-top: 15px solid #7827a9;
+}
+/* line 227, ../sass/site-footer.scss */
+.site-footer .blue {
+  border-top: 15px solid #0c8fcc;
+}
+/* line 231, ../sass/site-footer.scss */
+.site-footer .red {
+  border-top: 15px solid #de1c5c;
+}
+/* line 235, ../sass/site-footer.scss */
+.site-footer .orange {
+  border-top: 15px solid #ffae00;
 }
 
 /* line 1, ../sass/containers.scss */
