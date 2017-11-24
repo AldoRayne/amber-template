@@ -153,22 +153,20 @@
   top: calc(50% - 34px);
 }
 
-/* line 143, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie {
+/* line 156, ../sass/progress-bar.scss */
+.pie {
   clip: rect(auto, auto, auto, auto);
 }
-
-/* line 147, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .right-side {
-  transform: rotate(350deg);
-}
-
-/* line 151, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .half-circle {
-  border-color: #ffffff;
-}
-
-/* line 155, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .left-side {
+/* line 159, ../sass/progress-bar.scss */
+.pie .right-side {
   transform: rotate(180deg);
+}
+
+/* line 166, ../sass/progress-bar.scss */
+.pie .half-circle {
+  border-color: #e74c3c;
+}
+/* line 170, ../sass/progress-bar.scss */
+.pie .left-side {
+  transform: rotate(432 deg);
 }

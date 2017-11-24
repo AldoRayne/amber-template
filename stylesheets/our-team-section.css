@@ -19,17 +19,84 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #eeeeee;
+  margin-bottom: 40px;
 }
-/* line 22, ../sass/our-team-section.scss */
+/* line 24, ../sass/our-team-section.scss */
 .our-team-section button {
   width: 136px;
   height: 40px;
   margin: 30px 0;
 }
-/* line 27, ../sass/our-team-section.scss */
+/* line 29, ../sass/our-team-section.scss */
 .our-team-section button:focus {
   background-color: #02baab;
   color: #ffffff;
   border-color: #02baab;
   outline: none;
+}
+
+/* line 38, ../sass/our-team-section.scss */
+.holder {
+  position: relative;
+  width: 210px;
+  height: 280px;
+}
+
+/* line 44, ../sass/our-team-section.scss */
+.hidden-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 210px;
+  height: 0;
+  padding: 60px 28px;
+  display: none;
+}
+/* line 54, ../sass/our-team-section.scss */
+.hidden-block p {
+  text-align: center;
+  margin-top: 0;
+  width: 153px;
+  color: #3b4954;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 65, ../sass/our-team-section.scss */
+.holder:hover .hidden-block {
+  background-color: white;
+  height: 118px;
+  display: block;
+}
+
+/* line 71, ../sass/our-team-section.scss */
+.double-inner-block {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 68px);
+  margin: auto;
+  width: 136px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+/* line 81, ../sass/our-team-section.scss */
+.double-inner-block p {
+  width: 100px;
+  margin: 0 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+/* line 87, ../sass/our-team-section.scss */
+.double-inner-block p:first-child {
+  color: #02baab;
+  font-size: 14px;
+}
+/* line 92, ../sass/our-team-section.scss */
+.double-inner-block p:last-child {
+  color: #c4c4c4;
+  font-size: 12px;
 }

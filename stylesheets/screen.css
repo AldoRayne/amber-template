@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .head {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 /* line 6, ../sass/header.scss */
 .head .container-fluid {
@@ -139,32 +139,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  width: 290px;
+  height: 290px;
 }
-/* line 34, ../sass/works.scss */
-.works ul div {
+/* line 36, ../sass/works.scss */
+.works ul .item-list {
   position: relative;
   box-sizing: border-box;
 }
-/* line 39, ../sass/works.scss */
-.works ul div:hover p {
+/* line 41, ../sass/works.scss */
+.works ul .item-list:hover p {
   opacity: 0;
   transition: 0.5s;
   cursor: default;
 }
-/* line 45, ../sass/works.scss */
-.works ul div:hover:before {
+/* line 47, ../sass/works.scss */
+.works ul .item-list:hover:before {
   position: absolute;
   width: 40px;
   height: 140px;
-  content: url("../images/ellipse.png");
+  content: url("../images/ellipse-heart.png");
   top: calc(50% - 70px);
   left: calc(50% - 20px);
 }
-/* line 54, ../sass/works.scss */
-.works ul div p {
+/* line 58, ../sass/works.scss */
+.works ul .list-inner {
+  padding: 0 20px;
   position: absolute;
   bottom: 0;
-  left: 20px;
+  width: 290px;
+}
+/* line 64, ../sass/works.scss */
+.works ul .list-inner p {
+  margin-top: 0;
 }
 
 /* line 1, ../sass/month-steal.scss */
@@ -362,7 +369,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .company-exp {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 640px;
   background-color: #02baab;
 }
 /* line 7, ../sass/company-exp-section.scss */
@@ -374,6 +381,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .company-exp h2:before {
   content: "";
   background-color: #ffffff;
+}
+/* line 17, ../sass/company-exp-section.scss */
+.company-exp ul {
+  position: relative;
+}
+/* line 20, ../sass/company-exp-section.scss */
+.company-exp ul li {
+  margin-bottom: 120px;
+}
+/* line 24, ../sass/company-exp-section.scss */
+.company-exp ul:before {
+  position: absolute;
+  content: url("../images/three-points-row.png");
+  width: 70px;
+  height: 10px;
+  left: calc(50% - 35px);
+}
+@media (min-width: 992px) {
+  /* line 24, ../sass/company-exp-section.scss */
+  .company-exp ul:before {
+    transform: translate(-40px) rotate(90deg);
+    top: calc(50% - 70px);
+  }
+}
+@media (min-width: 1200px) {
+  /* line 24, ../sass/company-exp-section.scss */
+  .company-exp ul:before {
+    transform: translate(-190px) rotate(0deg);
+    top: 0;
+  }
+}
+/* line 42, ../sass/company-exp-section.scss */
+.company-exp ul:after {
+  position: absolute;
+  content: url("../images/three-points-row.png");
+  width: 70px;
+  height: 10px;
+  right: calc(50% - 35px);
+}
+@media (min-width: 992px) {
+  /* line 42, ../sass/company-exp-section.scss */
+  .company-exp ul:after {
+    transform: translate(40px) rotate(-90deg);
+    top: calc(50% - 70px);
+  }
+}
+@media (min-width: 1200px) {
+  /* line 42, ../sass/company-exp-section.scss */
+  .company-exp ul:after {
+    transform: translate(190px) rotate(0deg);
+    top: 0;
+  }
 }
 
 /* line 1, ../sass/our-team-section.scss */
@@ -397,19 +456,86 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #eeeeee;
+  margin-bottom: 40px;
 }
-/* line 22, ../sass/our-team-section.scss */
+/* line 24, ../sass/our-team-section.scss */
 .our-team-section button {
   width: 136px;
   height: 40px;
   margin: 30px 0;
 }
-/* line 27, ../sass/our-team-section.scss */
+/* line 29, ../sass/our-team-section.scss */
 .our-team-section button:focus {
   background-color: #02baab;
   color: #ffffff;
   border-color: #02baab;
   outline: none;
+}
+
+/* line 38, ../sass/our-team-section.scss */
+.holder {
+  position: relative;
+  width: 210px;
+  height: 280px;
+}
+
+/* line 44, ../sass/our-team-section.scss */
+.hidden-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 210px;
+  height: 0;
+  padding: 60px 28px;
+  display: none;
+}
+/* line 54, ../sass/our-team-section.scss */
+.hidden-block p {
+  text-align: center;
+  margin-top: 0;
+  width: 153px;
+  color: #3b4954;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 65, ../sass/our-team-section.scss */
+.holder:hover .hidden-block {
+  background-color: white;
+  height: 118px;
+  display: block;
+}
+
+/* line 71, ../sass/our-team-section.scss */
+.double-inner-block {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 68px);
+  margin: auto;
+  width: 136px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+/* line 81, ../sass/our-team-section.scss */
+.double-inner-block p {
+  width: 100px;
+  margin: 0 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+/* line 87, ../sass/our-team-section.scss */
+.double-inner-block p:first-child {
+  color: #02baab;
+  font-size: 14px;
+}
+/* line 92, ../sass/our-team-section.scss */
+.double-inner-block p:last-child {
+  color: #c4c4c4;
+  font-size: 12px;
 }
 
 /* line 1, ../sass/site-footer.scss */
@@ -707,32 +833,61 @@ button {
   flex-direction: column;
   justify-content: center;
   flex-basis: 14.3%;
+  transition: 0.1s;
 }
-/* line 76, ../sass/nav-bar.scss */
+/* line 77, ../sass/nav-bar.scss */
+.nav-bar-comp .yellow {
+  border-top: 10px solid #ffae00;
+}
+/* line 79, ../sass/nav-bar.scss */
 .nav-bar-comp .yellow:hover {
   background-color: #ffae00;
 }
-/* line 80, ../sass/nav-bar.scss */
+/* line 84, ../sass/nav-bar.scss */
+.nav-bar-comp .orange {
+  border-top: 10px solid #fc7100;
+}
+/* line 87, ../sass/nav-bar.scss */
 .nav-bar-comp .orange:hover {
   background-color: #fc7100;
 }
-/* line 84, ../sass/nav-bar.scss */
+/* line 92, ../sass/nav-bar.scss */
+.nav-bar-comp .crimson {
+  border-top: 10px solid #e51c5e;
+}
+/* line 95, ../sass/nav-bar.scss */
 .nav-bar-comp .crimson:hover {
   background-color: #e51c5e;
 }
-/* line 88, ../sass/nav-bar.scss */
+/* line 100, ../sass/nav-bar.scss */
+.nav-bar-comp .violet {
+  border-top: 10px solid #ae0f8d;
+}
+/* line 103, ../sass/nav-bar.scss */
 .nav-bar-comp .violet:hover {
   background-color: #ae0f8d;
 }
-/* line 92, ../sass/nav-bar.scss */
+/* line 108, ../sass/nav-bar.scss */
+.nav-bar-comp .purple {
+  border-top: 10px solid #6d0fae;
+}
+/* line 111, ../sass/nav-bar.scss */
 .nav-bar-comp .purple:hover {
   background-color: #6d0fae;
 }
-/* line 96, ../sass/nav-bar.scss */
+/* line 116, ../sass/nav-bar.scss */
+.nav-bar-comp .midnight {
+  border-top: 10px solid #33227a;
+}
+/* line 119, ../sass/nav-bar.scss */
 .nav-bar-comp .midnight:hover {
   background-color: #33227a;
 }
-/* line 100, ../sass/nav-bar.scss */
+/* line 124, ../sass/nav-bar.scss */
+.nav-bar-comp .blue {
+  border-top: 10px solid #0c8fcc;
+}
+/* line 127, ../sass/nav-bar.scss */
 .nav-bar-comp .blue:hover {
   background-color: #0c8fcc;
 }
@@ -918,22 +1073,20 @@ body p {
   top: calc(50% - 34px);
 }
 
-/* line 143, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie {
+/* line 156, ../sass/progress-bar.scss */
+.pie {
   clip: rect(auto, auto, auto, auto);
 }
-
-/* line 147, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .right-side {
-  transform: rotate(350deg);
-}
-
-/* line 151, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .half-circle {
-  border-color: #ffffff;
-}
-
-/* line 155, ../sass/progress-bar.scss */
-.pie-wrapper.progress-95 .pie .left-side {
+/* line 159, ../sass/progress-bar.scss */
+.pie .right-side {
   transform: rotate(180deg);
+}
+
+/* line 166, ../sass/progress-bar.scss */
+.pie .half-circle {
+  border-color: #e74c3c;
+}
+/* line 170, ../sass/progress-bar.scss */
+.pie .left-side {
+  transform: rotate(432 deg);
 }

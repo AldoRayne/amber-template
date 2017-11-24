@@ -73,32 +73,61 @@
   flex-direction: column;
   justify-content: center;
   flex-basis: 14.3%;
+  transition: 0.1s;
 }
-/* line 76, ../sass/nav-bar.scss */
+/* line 77, ../sass/nav-bar.scss */
+.nav-bar-comp .yellow {
+  border-top: 10px solid #ffae00;
+}
+/* line 79, ../sass/nav-bar.scss */
 .nav-bar-comp .yellow:hover {
   background-color: #ffae00;
 }
-/* line 80, ../sass/nav-bar.scss */
+/* line 84, ../sass/nav-bar.scss */
+.nav-bar-comp .orange {
+  border-top: 10px solid #fc7100;
+}
+/* line 87, ../sass/nav-bar.scss */
 .nav-bar-comp .orange:hover {
   background-color: #fc7100;
 }
-/* line 84, ../sass/nav-bar.scss */
+/* line 92, ../sass/nav-bar.scss */
+.nav-bar-comp .crimson {
+  border-top: 10px solid #e51c5e;
+}
+/* line 95, ../sass/nav-bar.scss */
 .nav-bar-comp .crimson:hover {
   background-color: #e51c5e;
 }
-/* line 88, ../sass/nav-bar.scss */
+/* line 100, ../sass/nav-bar.scss */
+.nav-bar-comp .violet {
+  border-top: 10px solid #ae0f8d;
+}
+/* line 103, ../sass/nav-bar.scss */
 .nav-bar-comp .violet:hover {
   background-color: #ae0f8d;
 }
-/* line 92, ../sass/nav-bar.scss */
+/* line 108, ../sass/nav-bar.scss */
+.nav-bar-comp .purple {
+  border-top: 10px solid #6d0fae;
+}
+/* line 111, ../sass/nav-bar.scss */
 .nav-bar-comp .purple:hover {
   background-color: #6d0fae;
 }
-/* line 96, ../sass/nav-bar.scss */
+/* line 116, ../sass/nav-bar.scss */
+.nav-bar-comp .midnight {
+  border-top: 10px solid #33227a;
+}
+/* line 119, ../sass/nav-bar.scss */
 .nav-bar-comp .midnight:hover {
   background-color: #33227a;
 }
-/* line 100, ../sass/nav-bar.scss */
+/* line 124, ../sass/nav-bar.scss */
+.nav-bar-comp .blue {
+  border-top: 10px solid #0c8fcc;
+}
+/* line 127, ../sass/nav-bar.scss */
 .nav-bar-comp .blue:hover {
   background-color: #0c8fcc;
 }

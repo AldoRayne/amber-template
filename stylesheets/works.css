@@ -29,30 +29,37 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  width: 290px;
+  height: 290px;
 }
-/* line 34, ../sass/works.scss */
-.works ul div {
+/* line 36, ../sass/works.scss */
+.works ul .item-list {
   position: relative;
   box-sizing: border-box;
 }
-/* line 39, ../sass/works.scss */
-.works ul div:hover p {
+/* line 41, ../sass/works.scss */
+.works ul .item-list:hover p {
   opacity: 0;
   transition: 0.5s;
   cursor: default;
 }
-/* line 45, ../sass/works.scss */
-.works ul div:hover:before {
+/* line 47, ../sass/works.scss */
+.works ul .item-list:hover:before {
   position: absolute;
   width: 40px;
   height: 140px;
-  content: url("../images/ellipse.png");
+  content: url("../images/ellipse-heart.png");
   top: calc(50% - 70px);
   left: calc(50% - 20px);
 }
-/* line 54, ../sass/works.scss */
-.works ul div p {
+/* line 58, ../sass/works.scss */
+.works ul .list-inner {
+  padding: 0 20px;
   position: absolute;
   bottom: 0;
-  left: 20px;
+  width: 290px;
+}
+/* line 64, ../sass/works.scss */
+.works ul .list-inner p {
+  margin-top: 0;
 }

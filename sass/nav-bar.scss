@@ -70,34 +70,62 @@
       flex-direction: column;
       justify-content: center;
       flex-basis: 14.3%;
+      transition: 0.1s;
     }
   }
 
-  .yellow:hover {
-    background-color: #ffae00;
+  .yellow {
+      border-top: 10px solid #ffae00;
+    &:hover {
+      background-color: #ffae00;
+    }
   }
 
-  .orange:hover {
-    background-color: #fc7100;
+  .orange{
+    border-top: 10px solid #fc7100;
+
+    &:hover {
+      background-color: #fc7100;
+    }
   }
 
-  .crimson:hover {
-    background-color: #e51c5e;
+  .crimson{
+    border-top: 10px solid #e51c5e;
+
+    &:hover {
+      background-color: #e51c5e;
+    }
   }
 
-  .violet:hover {
-    background-color: #ae0f8d;
+  .violet{
+    border-top: 10px solid #ae0f8d;
+
+    &:hover {
+      background-color: #ae0f8d;
+    }
   }
 
-  .purple:hover {
-    background-color: #6d0fae;
+  .purple{
+    border-top: 10px solid #6d0fae;
+
+    &:hover {
+      background-color: #6d0fae;
+    }
   }
 
-  .midnight:hover {
-    background-color: #33227a;
+  .midnight {
+    border-top: 10px solid #33227a;
+
+    &:hover {
+      background-color: #33227a;
+    }
   }
 
-  .blue:hover {
-    background-color: #0c8fcc;
+  .blue {
+    border-top: 10px solid #0c8fcc;
+
+    &:hover {
+      background-color: #0c8fcc;
+    }
   }
 }
