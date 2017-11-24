@@ -2,10 +2,11 @@
 .site-footer {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
   background-color: #1f2a32;
 }
-/* line 7, ../sass/site-footer.scss */
+/* line 8, ../sass/site-footer.scss */
 .site-footer h3 {
   margin: 73px 0 51px;
   color: #ffffff;
@@ -13,19 +14,19 @@
   font-weight: 300;
   line-height: 35px;
 }
-/* line 15, ../sass/site-footer.scss */
+/* line 16, ../sass/site-footer.scss */
 .site-footer .follow {
   margin-top: 70px;
 }
-/* line 18, ../sass/site-footer.scss */
+/* line 19, ../sass/site-footer.scss */
 .site-footer .follow li {
   margin-bottom: 40px;
 }
-/* line 25, ../sass/site-footer.scss */
+/* line 26, ../sass/site-footer.scss */
 .site-footer ul p {
   margin-top: 0;
 }
-/* line 29, ../sass/site-footer.scss */
+/* line 30, ../sass/site-footer.scss */
 .site-footer ul li {
   position: relative;
   font-size: 12px;
@@ -35,11 +36,11 @@
   margin-bottom: 30px;
   width: 210px;
 }
-/* line 39, ../sass/site-footer.scss */
+/* line 40, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets {
   left: 20px;
 }
-/* line 42, ../sass/site-footer.scss */
+/* line 43, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets:before {
   position: absolute;
   content: url("../images/twitter.png");
@@ -48,11 +49,11 @@
   left: -20px;
   top: 0;
 }
-/* line 52, ../sass/site-footer.scss */
+/* line 53, ../sass/site-footer.scss */
 .site-footer ul .flag {
   left: 20px;
 }
-/* line 55, ../sass/site-footer.scss */
+/* line 56, ../sass/site-footer.scss */
 .site-footer ul .flag:before {
   position: absolute;
   content: url("../images/flag.png");
@@ -61,11 +62,11 @@
   left: -20px;
   top: 0;
 }
-/* line 65, ../sass/site-footer.scss */
+/* line 66, ../sass/site-footer.scss */
 .site-footer ul .call {
   left: 20px;
 }
-/* line 68, ../sass/site-footer.scss */
+/* line 69, ../sass/site-footer.scss */
 .site-footer ul .call:before {
   position: absolute;
   content: url("../images/call.png");
@@ -74,11 +75,11 @@
   left: -20px;
   top: 0;
 }
-/* line 78, ../sass/site-footer.scss */
+/* line 79, ../sass/site-footer.scss */
 .site-footer ul .mail {
   left: 20px;
 }
-/* line 81, ../sass/site-footer.scss */
+/* line 82, ../sass/site-footer.scss */
 .site-footer ul .mail:before {
   position: absolute;
   content: url("../images/mail.png");
@@ -87,11 +88,11 @@
   left: -20px;
   top: 0;
 }
-/* line 91, ../sass/site-footer.scss */
+/* line 92, ../sass/site-footer.scss */
 .site-footer ul .follow-fb {
   padding-left: 70px;
 }
-/* line 94, ../sass/site-footer.scss */
+/* line 95, ../sass/site-footer.scss */
 .site-footer ul .follow-fb:before {
   position: absolute;
   content: url("../images/follow-fb.png");
@@ -100,11 +101,11 @@
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 104, ../sass/site-footer.scss */
+/* line 105, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt {
   padding-left: 70px;
 }
-/* line 107, ../sass/site-footer.scss */
+/* line 108, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt:before {
   position: absolute;
   content: url("../images/follow-twitt.png");
@@ -113,11 +114,11 @@
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 117, ../sass/site-footer.scss */
+/* line 118, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b {
   padding-left: 70px;
 }
-/* line 120, ../sass/site-footer.scss */
+/* line 121, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b:before {
   position: absolute;
   content: url("../images/follow-u2b.png");
@@ -126,11 +127,11 @@
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 130, ../sass/site-footer.scss */
+/* line 131, ../sass/site-footer.scss */
 .site-footer ul .follow-inst {
   padding-left: 70px;
 }
-/* line 133, ../sass/site-footer.scss */
+/* line 134, ../sass/site-footer.scss */
 .site-footer ul .follow-inst:before {
   position: absolute;
   content: url("../images/follow-inst.png");
@@ -139,11 +140,11 @@
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 143, ../sass/site-footer.scss */
+/* line 144, ../sass/site-footer.scss */
 .site-footer ul .follow-pint {
   padding-left: 70px;
 }
-/* line 146, ../sass/site-footer.scss */
+/* line 147, ../sass/site-footer.scss */
 .site-footer ul .follow-pint:before {
   position: absolute;
   content: url("../images/follow-pint.png");
@@ -152,11 +153,11 @@
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 157, ../sass/site-footer.scss */
+/* line 158, ../sass/site-footer.scss */
 .site-footer footer {
   margin-top: 85px;
 }
-/* line 160, ../sass/site-footer.scss */
+/* line 161, ../sass/site-footer.scss */
 .site-footer footer p {
   margin-top: 0;
   width: 233px;

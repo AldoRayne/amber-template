@@ -1,29 +1,30 @@
-/* line 1, ../sass/company-exp-section.scss */
+/* line 3, ../sass/company-exp-section.scss */
 .company-exp {
   position: relative;
   width: 100%;
-  min-height: 640px;
+  height: auto;
+  padding-bottom: 100px;
   background-color: #02baab;
 }
-/* line 7, ../sass/company-exp-section.scss */
+/* line 10, ../sass/company-exp-section.scss */
 .company-exp h2 {
   color: #ffffff;
   margin-bottom: 50px;
 }
-/* line 11, ../sass/company-exp-section.scss */
+/* line 14, ../sass/company-exp-section.scss */
 .company-exp h2:before {
   content: "";
   background-color: #ffffff;
 }
-/* line 17, ../sass/company-exp-section.scss */
+/* line 20, ../sass/company-exp-section.scss */
 .company-exp ul {
   position: relative;
 }
-/* line 20, ../sass/company-exp-section.scss */
+/* line 23, ../sass/company-exp-section.scss */
 .company-exp ul li {
   margin-bottom: 120px;
 }
-/* line 24, ../sass/company-exp-section.scss */
+/* line 27, ../sass/company-exp-section.scss */
 .company-exp ul:before {
   position: absolute;
   content: url("../images/three-points-row.png");
@@ -32,20 +33,20 @@
   left: calc(50% - 35px);
 }
 @media (min-width: 992px) {
-  /* line 24, ../sass/company-exp-section.scss */
+  /* line 27, ../sass/company-exp-section.scss */
   .company-exp ul:before {
     transform: translate(-40px) rotate(90deg);
     top: calc(50% - 70px);
   }
 }
 @media (min-width: 1200px) {
-  /* line 24, ../sass/company-exp-section.scss */
+  /* line 27, ../sass/company-exp-section.scss */
   .company-exp ul:before {
     transform: translate(-190px) rotate(0deg);
     top: 0;
   }
 }
-/* line 42, ../sass/company-exp-section.scss */
+/* line 45, ../sass/company-exp-section.scss */
 .company-exp ul:after {
   position: absolute;
   content: url("../images/three-points-row.png");
@@ -54,14 +55,14 @@
   right: calc(50% - 35px);
 }
 @media (min-width: 992px) {
-  /* line 42, ../sass/company-exp-section.scss */
+  /* line 45, ../sass/company-exp-section.scss */
   .company-exp ul:after {
     transform: translate(40px) rotate(-90deg);
     top: calc(50% - 70px);
   }
 }
 @media (min-width: 1200px) {
-  /* line 42, ../sass/company-exp-section.scss */
+  /* line 45, ../sass/company-exp-section.scss */
   .company-exp ul:after {
     transform: translate(190px) rotate(0deg);
     top: 0;

@@ -132,25 +132,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   height: auto;
   background-color: #0c8fcc;
+  padding-bottom: 100px;
 }
-/* line 11, ../sass/works.scss */
+/* line 12, ../sass/works.scss */
 .works header h2 {
   color: #ffffff;
 }
-/* line 14, ../sass/works.scss */
+/* line 15, ../sass/works.scss */
 .works header h2:before {
   content: "";
   background-color: #ffffff;
 }
-/* line 20, ../sass/works.scss */
+/* line 21, ../sass/works.scss */
 .works header p {
   color: #ffffff;
 }
-/* line 25, ../sass/works.scss */
+/* line 26, ../sass/works.scss */
 .works ul {
   margin-top: 46px;
 }
-/* line 28, ../sass/works.scss */
+/* line 29, ../sass/works.scss */
 .works ul li {
   position: relative;
   display: flex;
@@ -160,7 +161,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 290px;
   height: 290px;
 }
-/* line 38, ../sass/works.scss */
+/* line 39, ../sass/works.scss */
 .works ul .inner-links {
   position: absolute;
   width: 40px;
@@ -169,48 +170,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 75px;
   display: none;
 }
-/* line 46, ../sass/works.scss */
+/* line 47, ../sass/works.scss */
 .works ul .inner-links img {
   margin-bottom: 5px;
 }
-/* line 51, ../sass/works.scss */
+/* line 52, ../sass/works.scss */
 .works ul .item-list {
   position: relative;
   box-sizing: border-box;
 }
-/* line 58, ../sass/works.scss */
+/* line 59, ../sass/works.scss */
 .works ul .item-list:hover p {
   opacity: 0;
   transition: 0.5s;
   cursor: default;
 }
-/* line 65, ../sass/works.scss */
+/* line 66, ../sass/works.scss */
 .works ul .item-list:hover .inner-links {
   display: block;
 }
-/* line 70, ../sass/works.scss */
+/* line 71, ../sass/works.scss */
 .works ul .list-inner {
   padding: 0 20px;
   position: absolute;
   bottom: 0;
   width: 290px;
 }
-/* line 76, ../sass/works.scss */
+/* line 77, ../sass/works.scss */
 .works ul .list-inner img {
   position: absolute;
   right: 20px;
   top: 4px;
 }
-/* line 82, ../sass/works.scss */
+/* line 83, ../sass/works.scss */
 .works ul .list-inner span {
   position: absolute;
   right: 20px;
 }
-/* line 88, ../sass/works.scss */
+/* line 89, ../sass/works.scss */
 .works ul .list-inner p {
   margin-top: 0;
 }
-/* line 91, ../sass/works.scss */
+/* line 92, ../sass/works.scss */
 .works ul .list-inner p:first-child {
   color: #ffffff;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
@@ -218,7 +219,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 24px;
 }
-/* line 99, ../sass/works.scss */
+/* line 100, ../sass/works.scss */
 .works ul .list-inner p:last-child {
   color: #02baab;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
@@ -231,14 +232,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .month-steal {
   position: relative;
   width: 100%;
-  min-height: 450px;
+  height: auto;
+  padding-bottom: 100px;
 }
-/* line 6, ../sass/month-steal.scss */
+/* line 7, ../sass/month-steal.scss */
 .month-steal h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 11, ../sass/month-steal.scss */
+/* line 12, ../sass/month-steal.scss */
 .month-steal button {
   margin-top: 46px;
 }
@@ -247,8 +249,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .ad-section {
   position: relative;
   width: 100%;
-  min-height: 150px;
-  padding-top: 50px;
+  height: auto;
+  padding: 50px 0;
   background-color: #02baab;
 }
 /* line 8, ../sass/ad-section.scss */
@@ -287,58 +289,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 3, ../sass/features.scss */
 .features {
+  position: relative;
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding-bottom: 50px;
 }
-/* line 7, ../sass/features.scss */
+/* line 9, ../sass/features.scss */
 .features h2 {
   margin-bottom: 55px;
 }
-/* line 10, ../sass/features.scss */
+/* line 12, ../sass/features.scss */
 .features h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 16, ../sass/features.scss */
+/* line 18, ../sass/features.scss */
 .features h3 {
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
   color: #000000;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  padding-left: 30px;
 }
-/* line 26, ../sass/features.scss */
+/* line 29, ../sass/features.scss */
 .features ul li {
   position: relative;
   margin-bottom: 70px;
   box-sizing: border-box;
 }
 @media (min-width: 992px) {
-  /* line 32, ../sass/features.scss */
+  /* line 35, ../sass/features.scss */
   .features ul li:nth-child(odd) {
     padding-left: 50px;
   }
-  /* line 35, ../sass/features.scss */
+  /* line 38, ../sass/features.scss */
   .features ul li:nth-child(even) {
     padding-left: 120px;
   }
 }
 @media (min-width: 768px) {
-  /* line 41, ../sass/features.scss */
+  /* line 44, ../sass/features.scss */
   .features ul li:nth-child(even) {
     padding-left: 80px;
   }
 }
-/* line 46, ../sass/features.scss */
+/* line 49, ../sass/features.scss */
 .features ul li p {
   margin-top: 13px;
-  width: 356px;
+  width: 300px;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  padding-left: 30px;
 }
-/* line 56, ../sass/features.scss */
+/* line 60, ../sass/features.scss */
 .features ul .star:before {
   position: absolute;
   content: url("../images/star-icon.png");
@@ -347,16 +353,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   left: -15px;
 }
-/* line 65, ../sass/features.scss */
+/* line 69, ../sass/features.scss */
 .features ul .challece:before {
   position: absolute;
   content: url("../images/challece-icon.png");
   width: 36px;
   height: 33px;
   top: 0;
-  left: 0;
+  left: -15px;
 }
-/* line 74, ../sass/features.scss */
+@media (min-width: 768px) {
+  /* line 69, ../sass/features.scss */
+  .features ul .challece:before {
+    left: 30px;
+  }
+}
+/* line 82, ../sass/features.scss */
 .features ul .pan:before {
   position: absolute;
   content: url("../images/pan-icon.png");
@@ -365,23 +377,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   left: -10px;
 }
-/* line 83, ../sass/features.scss */
+/* line 91, ../sass/features.scss */
 .features ul .cloud:before {
   position: absolute;
   content: url("../images/cloud-icon.png");
   width: 41px;
   height: 26px;
   top: 0;
-  left: -3px;
+  left: -20px;
+}
+@media (min-width: 768px) {
+  /* line 91, ../sass/features.scss */
+  .features ul .cloud:before {
+    left: 30px;
+  }
 }
 
 /* line 1, ../sass/comments-section.scss */
 .comments-section {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: auto;
   margin-top: 100px;
-  padding-top: 185px;
+  padding: 185px 0;
   background-color: #02554a;
 }
 /* line 9, ../sass/comments-section.scss */
@@ -422,30 +440,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .blog-posts-section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
 }
-/* line 6, ../sass/blog-posts-section.scss */
+/* line 7, ../sass/blog-posts-section.scss */
 .blog-posts-section h2 {
   margin-bottom: 69px;
   font-size: 36px;
   font-weight: 300;
   line-height: 20px;
 }
-/* line 12, ../sass/blog-posts-section.scss */
+/* line 13, ../sass/blog-posts-section.scss */
 .blog-posts-section h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 20, ../sass/blog-posts-section.scss */
+/* line 21, ../sass/blog-posts-section.scss */
 .blog-posts-section ul li {
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 30px;
+  margin-bottom: 50px;
 }
-/* line 27, ../sass/blog-posts-section.scss */
+/* line 29, ../sass/blog-posts-section.scss */
 .blog-posts-section ul a h3, .blog-posts-section ul a p {
   color: #02baab;
 }
-/* line 32, ../sass/blog-posts-section.scss */
+/* line 34, ../sass/blog-posts-section.scss */
 .blog-posts-section ul h3 {
   width: 240px;
   margin-top: 30px;
@@ -453,38 +473,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 30px;
 }
-/* line 40, ../sass/blog-posts-section.scss */
+/* line 42, ../sass/blog-posts-section.scss */
 .blog-posts-section ul p {
   width: 287px;
   margin-top: 28px;
 }
 
-/* line 1, ../sass/company-exp-section.scss */
+/* line 3, ../sass/company-exp-section.scss */
 .company-exp {
   position: relative;
   width: 100%;
-  min-height: 640px;
+  height: auto;
+  padding-bottom: 100px;
   background-color: #02baab;
 }
-/* line 7, ../sass/company-exp-section.scss */
+/* line 10, ../sass/company-exp-section.scss */
 .company-exp h2 {
   color: #ffffff;
   margin-bottom: 50px;
 }
-/* line 11, ../sass/company-exp-section.scss */
+/* line 14, ../sass/company-exp-section.scss */
 .company-exp h2:before {
   content: "";
   background-color: #ffffff;
 }
-/* line 17, ../sass/company-exp-section.scss */
+/* line 20, ../sass/company-exp-section.scss */
 .company-exp ul {
   position: relative;
 }
-/* line 20, ../sass/company-exp-section.scss */
+/* line 23, ../sass/company-exp-section.scss */
 .company-exp ul li {
   margin-bottom: 120px;
 }
-/* line 24, ../sass/company-exp-section.scss */
+/* line 27, ../sass/company-exp-section.scss */
 .company-exp ul:before {
   position: absolute;
   content: url("../images/three-points-row.png");
@@ -493,20 +514,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 35px);
 }
 @media (min-width: 992px) {
-  /* line 24, ../sass/company-exp-section.scss */
+  /* line 27, ../sass/company-exp-section.scss */
   .company-exp ul:before {
     transform: translate(-40px) rotate(90deg);
     top: calc(50% - 70px);
   }
 }
 @media (min-width: 1200px) {
-  /* line 24, ../sass/company-exp-section.scss */
+  /* line 27, ../sass/company-exp-section.scss */
   .company-exp ul:before {
     transform: translate(-190px) rotate(0deg);
     top: 0;
   }
 }
-/* line 42, ../sass/company-exp-section.scss */
+/* line 45, ../sass/company-exp-section.scss */
 .company-exp ul:after {
   position: absolute;
   content: url("../images/three-points-row.png");
@@ -515,14 +536,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: calc(50% - 35px);
 }
 @media (min-width: 992px) {
-  /* line 42, ../sass/company-exp-section.scss */
+  /* line 45, ../sass/company-exp-section.scss */
   .company-exp ul:after {
     transform: translate(40px) rotate(-90deg);
     top: calc(50% - 70px);
   }
 }
 @media (min-width: 1200px) {
-  /* line 42, ../sass/company-exp-section.scss */
+  /* line 45, ../sass/company-exp-section.scss */
   .company-exp ul:after {
     transform: translate(190px) rotate(0deg);
     top: 0;
@@ -533,19 +554,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .our-team-section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
 }
-/* line 6, ../sass/our-team-section.scss */
+/* line 7, ../sass/our-team-section.scss */
 .our-team-section h2 {
   color: #3b4954;
   margin-bottom: 50px;
 }
-/* line 10, ../sass/our-team-section.scss */
+/* line 11, ../sass/our-team-section.scss */
 .our-team-section h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 16, ../sass/our-team-section.scss */
+/* line 17, ../sass/our-team-section.scss */
 .our-team-section li {
   display: flex;
   flex-direction: column;
@@ -553,13 +575,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid #eeeeee;
   margin-bottom: 40px;
 }
-/* line 24, ../sass/our-team-section.scss */
+/* line 25, ../sass/our-team-section.scss */
 .our-team-section button {
   width: 136px;
   height: 40px;
   margin: 30px 0;
 }
-/* line 29, ../sass/our-team-section.scss */
+/* line 30, ../sass/our-team-section.scss */
 .our-team-section button:focus {
   background-color: #02baab;
   color: #ffffff;
@@ -567,16 +589,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   outline: none;
 }
 
-/* line 38, ../sass/our-team-section.scss */
+/* line 39, ../sass/our-team-section.scss */
 .holder {
   position: relative;
   width: 210px;
   height: 280px;
 }
 
-/* line 44, ../sass/our-team-section.scss */
+/* line 45, ../sass/our-team-section.scss */
 .hidden-block {
   position: absolute;
+  background-color: white;
   left: 0;
   right: 0;
   bottom: 0;
@@ -585,7 +608,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 60px 28px;
   display: none;
 }
-/* line 54, ../sass/our-team-section.scss */
+/* line 56, ../sass/our-team-section.scss */
 .hidden-block p {
   text-align: center;
   margin-top: 0;
@@ -596,14 +619,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 24px;
 }
 
-/* line 65, ../sass/our-team-section.scss */
+/* line 67, ../sass/our-team-section.scss */
 .holder:hover .hidden-block {
-  background-color: white;
   height: 118px;
   display: block;
 }
 
-/* line 71, ../sass/our-team-section.scss */
+/* line 72, ../sass/our-team-section.scss */
 .double-inner-block {
   position: absolute;
   top: -30px;
@@ -614,19 +636,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #ffffff;
   border: 1px solid #eeeeee;
 }
-/* line 81, ../sass/our-team-section.scss */
+/* line 82, ../sass/our-team-section.scss */
 .double-inner-block p {
   width: 100px;
   margin: 0 18px;
   font-weight: 400;
   line-height: 18px;
 }
-/* line 87, ../sass/our-team-section.scss */
+/* line 88, ../sass/our-team-section.scss */
 .double-inner-block p:first-child {
   color: #02baab;
   font-size: 14px;
 }
-/* line 92, ../sass/our-team-section.scss */
+/* line 93, ../sass/our-team-section.scss */
 .double-inner-block p:last-child {
   color: #c4c4c4;
   font-size: 12px;
@@ -636,10 +658,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .site-footer {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
   background-color: #1f2a32;
 }
-/* line 7, ../sass/site-footer.scss */
+/* line 8, ../sass/site-footer.scss */
 .site-footer h3 {
   margin: 73px 0 51px;
   color: #ffffff;
@@ -647,19 +670,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 300;
   line-height: 35px;
 }
-/* line 15, ../sass/site-footer.scss */
+/* line 16, ../sass/site-footer.scss */
 .site-footer .follow {
   margin-top: 70px;
 }
-/* line 18, ../sass/site-footer.scss */
+/* line 19, ../sass/site-footer.scss */
 .site-footer .follow li {
   margin-bottom: 40px;
 }
-/* line 25, ../sass/site-footer.scss */
+/* line 26, ../sass/site-footer.scss */
 .site-footer ul p {
   margin-top: 0;
 }
-/* line 29, ../sass/site-footer.scss */
+/* line 30, ../sass/site-footer.scss */
 .site-footer ul li {
   position: relative;
   font-size: 12px;
@@ -669,11 +692,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 30px;
   width: 210px;
 }
-/* line 39, ../sass/site-footer.scss */
+/* line 40, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets {
   left: 20px;
 }
-/* line 42, ../sass/site-footer.scss */
+/* line 43, ../sass/site-footer.scss */
 .site-footer ul .latest-tweets:before {
   position: absolute;
   content: url("../images/twitter.png");
@@ -682,11 +705,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 52, ../sass/site-footer.scss */
+/* line 53, ../sass/site-footer.scss */
 .site-footer ul .flag {
   left: 20px;
 }
-/* line 55, ../sass/site-footer.scss */
+/* line 56, ../sass/site-footer.scss */
 .site-footer ul .flag:before {
   position: absolute;
   content: url("../images/flag.png");
@@ -695,11 +718,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 65, ../sass/site-footer.scss */
+/* line 66, ../sass/site-footer.scss */
 .site-footer ul .call {
   left: 20px;
 }
-/* line 68, ../sass/site-footer.scss */
+/* line 69, ../sass/site-footer.scss */
 .site-footer ul .call:before {
   position: absolute;
   content: url("../images/call.png");
@@ -708,11 +731,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 78, ../sass/site-footer.scss */
+/* line 79, ../sass/site-footer.scss */
 .site-footer ul .mail {
   left: 20px;
 }
-/* line 81, ../sass/site-footer.scss */
+/* line 82, ../sass/site-footer.scss */
 .site-footer ul .mail:before {
   position: absolute;
   content: url("../images/mail.png");
@@ -721,11 +744,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: -20px;
   top: 0;
 }
-/* line 91, ../sass/site-footer.scss */
+/* line 92, ../sass/site-footer.scss */
 .site-footer ul .follow-fb {
   padding-left: 70px;
 }
-/* line 94, ../sass/site-footer.scss */
+/* line 95, ../sass/site-footer.scss */
 .site-footer ul .follow-fb:before {
   position: absolute;
   content: url("../images/follow-fb.png");
@@ -734,11 +757,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 104, ../sass/site-footer.scss */
+/* line 105, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt {
   padding-left: 70px;
 }
-/* line 107, ../sass/site-footer.scss */
+/* line 108, ../sass/site-footer.scss */
 .site-footer ul .follow-twitt:before {
   position: absolute;
   content: url("../images/follow-twitt.png");
@@ -747,11 +770,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 117, ../sass/site-footer.scss */
+/* line 118, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b {
   padding-left: 70px;
 }
-/* line 120, ../sass/site-footer.scss */
+/* line 121, ../sass/site-footer.scss */
 .site-footer ul .follow-u2b:before {
   position: absolute;
   content: url("../images/follow-u2b.png");
@@ -760,11 +783,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 130, ../sass/site-footer.scss */
+/* line 131, ../sass/site-footer.scss */
 .site-footer ul .follow-inst {
   padding-left: 70px;
 }
-/* line 133, ../sass/site-footer.scss */
+/* line 134, ../sass/site-footer.scss */
 .site-footer ul .follow-inst:before {
   position: absolute;
   content: url("../images/follow-inst.png");
@@ -773,11 +796,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 143, ../sass/site-footer.scss */
+/* line 144, ../sass/site-footer.scss */
 .site-footer ul .follow-pint {
   padding-left: 70px;
 }
-/* line 146, ../sass/site-footer.scss */
+/* line 147, ../sass/site-footer.scss */
 .site-footer ul .follow-pint:before {
   position: absolute;
   content: url("../images/follow-pint.png");
@@ -786,11 +809,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: calc(50% - 25px);
 }
-/* line 157, ../sass/site-footer.scss */
+/* line 158, ../sass/site-footer.scss */
 .site-footer footer {
   margin-top: 85px;
 }
-/* line 160, ../sass/site-footer.scss */
+/* line 161, ../sass/site-footer.scss */
 .site-footer footer p {
   margin-top: 0;
   width: 233px;
@@ -1034,26 +1057,26 @@ body p {
   margin-top: 51px;
 }
 
-/* line 3, ../sass/progress-bar.scss */
+/* line 4, ../sass/progress-bar.scss */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/progress-bar.scss */
+/* line 10, ../sass/progress-bar.scss */
 .set-size {
   font-size: 10em;
 }
 
-/* line 13, ../sass/progress-bar.scss */
+/* line 14, ../sass/progress-bar.scss */
 .charts-container:after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 19, ../sass/progress-bar.scss */
+/* line 20, ../sass/progress-bar.scss */
 .pie-wrapper {
   height: 210px;
   width: 210px;
@@ -1062,12 +1085,12 @@ body p {
   position: relative;
 }
 
-/* line 27, ../sass/progress-bar.scss */
+/* line 28, ../sass/progress-bar.scss */
 .pie-wrapper:nth-child(3n+1) {
   clear: both;
 }
 
-/* line 31, ../sass/progress-bar.scss */
+/* line 32, ../sass/progress-bar.scss */
 .pie-wrapper .pie {
   height: 100%;
   width: 100%;
@@ -1077,7 +1100,7 @@ body p {
   top: 0;
 }
 
-/* line 40, ../sass/progress-bar.scss */
+/* line 41, ../sass/progress-bar.scss */
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
@@ -1089,7 +1112,7 @@ body p {
   top: 0;
 }
 
-/* line 51, ../sass/progress-bar.scss */
+/* line 52, ../sass/progress-bar.scss */
 .pie-wrapper .label {
   background-color: #02baab;
   border-radius: 50%;
@@ -1106,7 +1129,7 @@ body p {
   top: 0.4em;
 }
 
-/* line 67, ../sass/progress-bar.scss */
+/* line 68, ../sass/progress-bar.scss */
 .pie-wrapper .label .smaller {
   color: #bdc3c7;
   font-size: .45em;
@@ -1114,7 +1137,7 @@ body p {
   vertical-align: super;
 }
 
-/* line 74, ../sass/progress-bar.scss */
+/* line 75, ../sass/progress-bar.scss */
 .pie-wrapper .shadow {
   height: 100%;
   width: 100%;
@@ -1122,7 +1145,7 @@ body p {
   border-radius: 50%;
 }
 
-/* line 81, ../sass/progress-bar.scss */
+/* line 82, ../sass/progress-bar.scss */
 .big-num {
   margin-top: 30px;
   color: #ffffff;
@@ -1131,7 +1154,7 @@ body p {
   font-size: 48px;
 }
 
-/* line 89, ../sass/progress-bar.scss */
+/* line 90, ../sass/progress-bar.scss */
 .description {
   margin-top: 15px;
   color: #ffffff;
@@ -1140,24 +1163,24 @@ body p {
   line-height: 24px;
 }
 
-/* line 97, ../sass/progress-bar.scss */
+/* line 98, ../sass/progress-bar.scss */
 .pie-wrapper .style-2 .label {
   position: relative;
   background: none;
   color: #7f8c8d;
 }
 
-/* line 103, ../sass/progress-bar.scss */
+/* line 104, ../sass/progress-bar.scss */
 .label {
   position: relative;
 }
-/* line 106, ../sass/progress-bar.scss */
+/* line 107, ../sass/progress-bar.scss */
 .label img {
   position: absolute;
   left: calc(50% - 50px);
   top: calc(50% - 50px);
 }
-/* line 112, ../sass/progress-bar.scss */
+/* line 113, ../sass/progress-bar.scss */
 .label.gears:before {
   position: absolute;
   content: url("../images/gears.png");
@@ -1167,7 +1190,7 @@ body p {
   left: calc(50% - 32px);
   top: calc(50% - 34px);
 }
-/* line 122, ../sass/progress-bar.scss */
+/* line 123, ../sass/progress-bar.scss */
 .label.phone:before {
   position: absolute;
   content: url("../images/phone.png");
@@ -1177,7 +1200,7 @@ body p {
   left: calc(50% - 30px);
   top: calc(50% - 37px);
 }
-/* line 132, ../sass/progress-bar.scss */
+/* line 133, ../sass/progress-bar.scss */
 .label.rocket:before {
   position: absolute;
   content: url("../images/rocket.png");
@@ -1186,22 +1209,4 @@ body p {
   z-index: 1;
   left: calc(50% - 33px);
   top: calc(50% - 34px);
-}
-
-/* line 156, ../sass/progress-bar.scss */
-.pie {
-  clip: rect(auto, auto, auto, auto);
-}
-/* line 159, ../sass/progress-bar.scss */
-.pie .right-side {
-  transform: rotate(180deg);
-}
-
-/* line 166, ../sass/progress-bar.scss */
-.pie .half-circle {
-  border-color: #e74c3c;
-}
-/* line 170, ../sass/progress-bar.scss */
-.pie .left-side {
-  transform: rotate(432 deg);
 }

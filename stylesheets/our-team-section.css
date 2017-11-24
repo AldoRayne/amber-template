@@ -2,19 +2,20 @@
 .our-team-section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
 }
-/* line 6, ../sass/our-team-section.scss */
+/* line 7, ../sass/our-team-section.scss */
 .our-team-section h2 {
   color: #3b4954;
   margin-bottom: 50px;
 }
-/* line 10, ../sass/our-team-section.scss */
+/* line 11, ../sass/our-team-section.scss */
 .our-team-section h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 16, ../sass/our-team-section.scss */
+/* line 17, ../sass/our-team-section.scss */
 .our-team-section li {
   display: flex;
   flex-direction: column;
@@ -22,13 +23,13 @@
   border: 1px solid #eeeeee;
   margin-bottom: 40px;
 }
-/* line 24, ../sass/our-team-section.scss */
+/* line 25, ../sass/our-team-section.scss */
 .our-team-section button {
   width: 136px;
   height: 40px;
   margin: 30px 0;
 }
-/* line 29, ../sass/our-team-section.scss */
+/* line 30, ../sass/our-team-section.scss */
 .our-team-section button:focus {
   background-color: #02baab;
   color: #ffffff;
@@ -36,16 +37,17 @@
   outline: none;
 }
 
-/* line 38, ../sass/our-team-section.scss */
+/* line 39, ../sass/our-team-section.scss */
 .holder {
   position: relative;
   width: 210px;
   height: 280px;
 }
 
-/* line 44, ../sass/our-team-section.scss */
+/* line 45, ../sass/our-team-section.scss */
 .hidden-block {
   position: absolute;
+  background-color: white;
   left: 0;
   right: 0;
   bottom: 0;
@@ -54,7 +56,7 @@
   padding: 60px 28px;
   display: none;
 }
-/* line 54, ../sass/our-team-section.scss */
+/* line 56, ../sass/our-team-section.scss */
 .hidden-block p {
   text-align: center;
   margin-top: 0;
@@ -65,14 +67,13 @@
   line-height: 24px;
 }
 
-/* line 65, ../sass/our-team-section.scss */
+/* line 67, ../sass/our-team-section.scss */
 .holder:hover .hidden-block {
-  background-color: white;
   height: 118px;
   display: block;
 }
 
-/* line 71, ../sass/our-team-section.scss */
+/* line 72, ../sass/our-team-section.scss */
 .double-inner-block {
   position: absolute;
   top: -30px;
@@ -83,19 +84,19 @@
   background-color: #ffffff;
   border: 1px solid #eeeeee;
 }
-/* line 81, ../sass/our-team-section.scss */
+/* line 82, ../sass/our-team-section.scss */
 .double-inner-block p {
   width: 100px;
   margin: 0 18px;
   font-weight: 400;
   line-height: 18px;
 }
-/* line 87, ../sass/our-team-section.scss */
+/* line 88, ../sass/our-team-section.scss */
 .double-inner-block p:first-child {
   color: #02baab;
   font-size: 14px;
 }
-/* line 92, ../sass/our-team-section.scss */
+/* line 93, ../sass/our-team-section.scss */
 .double-inner-block p:last-child {
   color: #c4c4c4;
   font-size: 12px;

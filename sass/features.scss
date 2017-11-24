@@ -1,8 +1,10 @@
 @import "variables";
 
 .features {
+  position: relative;
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding-bottom: 50px;
 
   h2 {
     margin-bottom: 55px;
@@ -19,6 +21,7 @@
     line-height: 30px;
     color: #000000;
     font-family: $Oxygen-Font;
+    padding-left: 30px;
   }
 
   ul {
@@ -45,11 +48,12 @@
 
       p {
         margin-top: 13px;
-        width: 356px;
+        width: 300px;
         font-size: 14px;
         font-weight: 300;
         line-height: 24px;
         font-family: $Oxygen-Font;
+        padding-left: 30px;
       }
     }
 
@@ -68,7 +72,11 @@
       width: 36px;
       height: 33px;
       top: 0;
-      left: 0;
+      left: -15px;
+      
+      @media (min-width: 768px) {
+        left: 30px;
+      }
     }
 
     .pan:before {
@@ -86,7 +94,11 @@
       width: 41px;
       height: 26px;
       top: 0;
-      left: -3px;
+      left: -20px;
+
+      @media (min-width: 768px) {
+        left: 30px;
+      }
     }
   }
 }

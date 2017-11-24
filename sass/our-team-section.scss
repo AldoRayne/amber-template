@@ -1,7 +1,8 @@
 .our-team-section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
 
   h2 {
     color: #3b4954;
@@ -43,6 +44,7 @@
 
 .hidden-block {
   position: absolute;
+  background-color: white;
   left: 0;
   right: 0;
   bottom: 0;
@@ -63,7 +65,6 @@
 }
 
 .holder:hover .hidden-block {
-  background-color: white;
   height: 118px;
   display: block;
 }

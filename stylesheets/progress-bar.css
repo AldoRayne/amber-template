@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
-/* line 3, ../sass/progress-bar.scss */
+/* line 4, ../sass/progress-bar.scss */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/progress-bar.scss */
+/* line 10, ../sass/progress-bar.scss */
 .set-size {
   font-size: 10em;
 }
 
-/* line 13, ../sass/progress-bar.scss */
+/* line 14, ../sass/progress-bar.scss */
 .charts-container:after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 19, ../sass/progress-bar.scss */
+/* line 20, ../sass/progress-bar.scss */
 .pie-wrapper {
   height: 210px;
   width: 210px;
@@ -27,12 +27,12 @@
   position: relative;
 }
 
-/* line 27, ../sass/progress-bar.scss */
+/* line 28, ../sass/progress-bar.scss */
 .pie-wrapper:nth-child(3n+1) {
   clear: both;
 }
 
-/* line 31, ../sass/progress-bar.scss */
+/* line 32, ../sass/progress-bar.scss */
 .pie-wrapper .pie {
   height: 100%;
   width: 100%;
@@ -42,7 +42,7 @@
   top: 0;
 }
 
-/* line 40, ../sass/progress-bar.scss */
+/* line 41, ../sass/progress-bar.scss */
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
@@ -54,7 +54,7 @@
   top: 0;
 }
 
-/* line 51, ../sass/progress-bar.scss */
+/* line 52, ../sass/progress-bar.scss */
 .pie-wrapper .label {
   background-color: #02baab;
   border-radius: 50%;
@@ -71,7 +71,7 @@
   top: 0.4em;
 }
 
-/* line 67, ../sass/progress-bar.scss */
+/* line 68, ../sass/progress-bar.scss */
 .pie-wrapper .label .smaller {
   color: #bdc3c7;
   font-size: .45em;
@@ -79,7 +79,7 @@
   vertical-align: super;
 }
 
-/* line 74, ../sass/progress-bar.scss */
+/* line 75, ../sass/progress-bar.scss */
 .pie-wrapper .shadow {
   height: 100%;
   width: 100%;
@@ -87,7 +87,7 @@
   border-radius: 50%;
 }
 
-/* line 81, ../sass/progress-bar.scss */
+/* line 82, ../sass/progress-bar.scss */
 .big-num {
   margin-top: 30px;
   color: #ffffff;
@@ -96,7 +96,7 @@
   font-size: 48px;
 }
 
-/* line 89, ../sass/progress-bar.scss */
+/* line 90, ../sass/progress-bar.scss */
 .description {
   margin-top: 15px;
   color: #ffffff;
@@ -105,24 +105,24 @@
   line-height: 24px;
 }
 
-/* line 97, ../sass/progress-bar.scss */
+/* line 98, ../sass/progress-bar.scss */
 .pie-wrapper .style-2 .label {
   position: relative;
   background: none;
   color: #7f8c8d;
 }
 
-/* line 103, ../sass/progress-bar.scss */
+/* line 104, ../sass/progress-bar.scss */
 .label {
   position: relative;
 }
-/* line 106, ../sass/progress-bar.scss */
+/* line 107, ../sass/progress-bar.scss */
 .label img {
   position: absolute;
   left: calc(50% - 50px);
   top: calc(50% - 50px);
 }
-/* line 112, ../sass/progress-bar.scss */
+/* line 113, ../sass/progress-bar.scss */
 .label.gears:before {
   position: absolute;
   content: url("../images/gears.png");
@@ -132,7 +132,7 @@
   left: calc(50% - 32px);
   top: calc(50% - 34px);
 }
-/* line 122, ../sass/progress-bar.scss */
+/* line 123, ../sass/progress-bar.scss */
 .label.phone:before {
   position: absolute;
   content: url("../images/phone.png");
@@ -142,7 +142,7 @@
   left: calc(50% - 30px);
   top: calc(50% - 37px);
 }
-/* line 132, ../sass/progress-bar.scss */
+/* line 133, ../sass/progress-bar.scss */
 .label.rocket:before {
   position: absolute;
   content: url("../images/rocket.png");
@@ -151,22 +151,4 @@
   z-index: 1;
   left: calc(50% - 33px);
   top: calc(50% - 34px);
-}
-
-/* line 156, ../sass/progress-bar.scss */
-.pie {
-  clip: rect(auto, auto, auto, auto);
-}
-/* line 159, ../sass/progress-bar.scss */
-.pie .right-side {
-  transform: rotate(180deg);
-}
-
-/* line 166, ../sass/progress-bar.scss */
-.pie .half-circle {
-  border-color: #e74c3c;
-}
-/* line 170, ../sass/progress-bar.scss */
-.pie .left-side {
-  transform: rotate(432 deg);
 }
