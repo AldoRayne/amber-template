@@ -1,4 +1,4 @@
-/* line 1, ../sass/button.scss */
+/* line 3, ../sass/button.scss */
 button {
   background: none;
   cursor: pointer;
@@ -6,6 +6,7 @@ button {
   color: #02baab;
   font-size: 12px;
   font-weight: 700;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   line-height: 35px;
   text-transform: uppercase;
   letter-spacing: 0.9px;

@@ -1,48 +1,89 @@
-/* line 1, ../sass/features.scss */
+/* line 3, ../sass/features.scss */
 .features {
   width: 100%;
   height: 500px;
 }
-/* line 6, ../sass/features.scss */
+/* line 7, ../sass/features.scss */
 .features h2 {
   margin-bottom: 55px;
 }
-/* line 9, ../sass/features.scss */
+/* line 10, ../sass/features.scss */
 .features h2:before {
   content: "";
   background-color: #eeeeee;
 }
-/* line 15, ../sass/features.scss */
+/* line 16, ../sass/features.scss */
 .features h3 {
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
+  color: #000000;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
 }
-/* line 23, ../sass/features.scss */
+/* line 26, ../sass/features.scss */
 .features ul li {
+  position: relative;
   margin-bottom: 70px;
   box-sizing: border-box;
 }
 @media (min-width: 992px) {
-  /* line 28, ../sass/features.scss */
+  /* line 32, ../sass/features.scss */
   .features ul li:nth-child(odd) {
     padding-left: 50px;
   }
-  /* line 31, ../sass/features.scss */
+  /* line 35, ../sass/features.scss */
   .features ul li:nth-child(even) {
     padding-left: 120px;
   }
 }
 @media (min-width: 768px) {
-  /* line 37, ../sass/features.scss */
+  /* line 41, ../sass/features.scss */
   .features ul li:nth-child(even) {
     padding-left: 80px;
   }
 }
-/* line 42, ../sass/features.scss */
+/* line 46, ../sass/features.scss */
 .features ul li p {
+  margin-top: 13px;
   width: 356px;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+}
+/* line 56, ../sass/features.scss */
+.features ul .star:before {
+  position: absolute;
+  content: url("../images/star-icon.png");
+  width: 39px;
+  height: 39px;
+  top: 0;
+  left: -15px;
+}
+/* line 65, ../sass/features.scss */
+.features ul .challece:before {
+  position: absolute;
+  content: url("../images/challece-icon.png");
+  width: 36px;
+  height: 33px;
+  top: 0;
+  left: 0;
+}
+/* line 74, ../sass/features.scss */
+.features ul .pan:before {
+  position: absolute;
+  content: url("../images/pan-icon.png");
+  width: 33px;
+  height: 33px;
+  top: 0;
+  left: -10px;
+}
+/* line 83, ../sass/features.scss */
+.features ul .cloud:before {
+  position: absolute;
+  content: url("../images/cloud-icon.png");
+  width: 41px;
+  height: 26px;
+  top: 0;
+  left: -3px;
 }
