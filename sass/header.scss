@@ -1,7 +1,6 @@
 .head {
-  position: fixed;
+  position: relative;
   width: 100%;
-  z-index: 9999;
 
   .container-fluid {
     margin: 0;
@@ -10,8 +9,14 @@
       background-color: black;
     }
 
-    &:last-child {
+    &:nth-child(2) {
       background-color: #868e96;
+    }
+
+    &:nth-child(3) {
+      background-image: url("../images/background-image.jpg");
+      max-width: 1680px;
+      height: 300px;
     }
   }
 }

@@ -1,18 +1,23 @@
 /* line 1, ../sass/header.scss */
 .head {
-  position: fixed;
+  position: relative;
   width: 100%;
-  z-index: 9999;
 }
-/* line 6, ../sass/header.scss */
+/* line 5, ../sass/header.scss */
 .head .container-fluid {
   margin: 0;
 }
-/* line 9, ../sass/header.scss */
+/* line 8, ../sass/header.scss */
 .head .container-fluid:first-child {
   background-color: black;
 }
-/* line 13, ../sass/header.scss */
-.head .container-fluid:last-child {
+/* line 12, ../sass/header.scss */
+.head .container-fluid:nth-child(2) {
   background-color: #868e96;
+}
+/* line 16, ../sass/header.scss */
+.head .container-fluid:nth-child(3) {
+  background-image: url("../images/background-image.jpg");
+  max-width: 1680px;
+  height: 300px;
 }

@@ -1,0 +1,21 @@
+/* line 3, ../sass/pages-list.scss */
+.pages-list li {
+  width: 30px;
+  height: 30px;
+}
+/* line 7, ../sass/pages-list.scss */
+.pages-list li:not(:last-child) {
+  margin-right: 26px;
+}
+/* line 13, ../sass/pages-list.scss */
+.pages-list a {
+  color: #02baab;
+}
+/* line 16, ../sass/pages-list.scss */
+.pages-list a:active {
+  color: #3b4954;
+}
+/* line 19, ../sass/pages-list.scss */
+.pages-list a:active li {
+  color: #eeeeee;
+}
