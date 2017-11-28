@@ -1,0 +1,18 @@
+/* line 3, ../sass/portfolio-block.scss */
+.portfolio-block {
+  position: relative;
+  width: 100%;
+}
+/* line 7, ../sass/portfolio-block.scss */
+.portfolio-block p {
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 14, ../sass/portfolio-block.scss */
+.portfolio-block button {
+  text-decoration: none;
+  cursor: pointer;
+  color: #02baab;
+}

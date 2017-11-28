@@ -1,0 +1,20 @@
+/* line 3, ../sass/categories.scss */
+.categories {
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 61px;
+}
+/* line 10, ../sass/categories.scss */
+.categories a {
+  color: #02baab;
+}
+/* line 13, ../sass/categories.scss */
+.categories a:active {
+  color: #3b4954;
+}
+/* line 18, ../sass/categories.scss */
+.categories li {
+  margin-right: 15px;
+}

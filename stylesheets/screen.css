@@ -134,102 +134,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .works {
   position: relative;
   width: 100%;
-  height: auto;
   background-color: #0c8fcc;
   padding-bottom: 100px;
 }
-/* line 12, ../sass/works.scss */
+/* line 11, ../sass/works.scss */
 .works header h2 {
   color: #ffffff;
 }
-/* line 15, ../sass/works.scss */
+/* line 14, ../sass/works.scss */
 .works header h2:before {
   content: "";
   background-color: #ffffff;
 }
-/* line 21, ../sass/works.scss */
+/* line 20, ../sass/works.scss */
 .works header p {
   color: #ffffff;
-}
-/* line 26, ../sass/works.scss */
-.works ul {
-  margin-top: 46px;
-}
-/* line 29, ../sass/works.scss */
-.works ul li {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-  width: 290px;
-  height: 290px;
-}
-/* line 39, ../sass/works.scss */
-.works ul .inner-links {
-  position: absolute;
-  width: 40px;
-  height: 140px;
-  left: calc(50% - 20px);
-  top: 75px;
-  display: none;
-}
-/* line 47, ../sass/works.scss */
-.works ul .inner-links img {
-  margin-bottom: 5px;
-}
-/* line 52, ../sass/works.scss */
-.works ul .item-list {
-  position: relative;
-  box-sizing: border-box;
-}
-/* line 59, ../sass/works.scss */
-.works ul .item-list:hover p {
-  opacity: 0;
-  transition: 0.5s;
-  cursor: default;
-}
-/* line 66, ../sass/works.scss */
-.works ul .item-list:hover .inner-links {
-  display: block;
-}
-/* line 71, ../sass/works.scss */
-.works ul .list-inner {
-  padding: 0 20px;
-  position: absolute;
-  bottom: 0;
-  width: 290px;
-}
-/* line 77, ../sass/works.scss */
-.works ul .list-inner img {
-  position: absolute;
-  right: 20px;
-  top: 4px;
-}
-/* line 83, ../sass/works.scss */
-.works ul .list-inner span {
-  position: absolute;
-  right: 20px;
-}
-/* line 89, ../sass/works.scss */
-.works ul .list-inner p {
-  margin-top: 0;
-}
-/* line 92, ../sass/works.scss */
-.works ul .list-inner p:first-child {
-  color: #ffffff;
-  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-}
-/* line 100, ../sass/works.scss */
-.works ul .list-inner p:last-child {
-  color: #02baab;
-  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
-  font-size: 11px;
-  font-weight: 300;
-  line-height: 20px;
 }
 
 /* line 1, ../sass/month-steal.scss */
@@ -1410,4 +1329,125 @@ body p {
   font-family: FontAwesome;
   left: 0;
   color: #ffae00;
+}
+
+/* line 3, ../sass/portfolio-block.scss */
+.portfolio-block {
+  position: relative;
+  width: 100%;
+}
+/* line 7, ../sass/portfolio-block.scss */
+.portfolio-block p {
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 14, ../sass/portfolio-block.scss */
+.portfolio-block button {
+  text-decoration: none;
+  cursor: pointer;
+  color: #02baab;
+}
+
+/* line 3, ../sass/categories.scss */
+.categories {
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 61px;
+}
+/* line 10, ../sass/categories.scss */
+.categories a {
+  color: #02baab;
+}
+/* line 13, ../sass/categories.scss */
+.categories a:active {
+  color: #3b4954;
+}
+/* line 18, ../sass/categories.scss */
+.categories li {
+  margin-right: 15px;
+}
+
+/* line 2, ../sass/portfolio-list.scss */
+.portfolio-list ul {
+  margin-top: 46px;
+}
+/* line 5, ../sass/portfolio-list.scss */
+.portfolio-list ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  width: 290px;
+  height: 290px;
+}
+/* line 15, ../sass/portfolio-list.scss */
+.portfolio-list ul .inner-links {
+  position: absolute;
+  width: 40px;
+  height: 140px;
+  left: calc(50% - 20px);
+  top: 75px;
+  display: none;
+}
+/* line 23, ../sass/portfolio-list.scss */
+.portfolio-list ul .inner-links img {
+  margin-bottom: 5px;
+}
+/* line 28, ../sass/portfolio-list.scss */
+.portfolio-list ul .item-list {
+  position: relative;
+  box-sizing: border-box;
+}
+/* line 35, ../sass/portfolio-list.scss */
+.portfolio-list ul .item-list:hover p {
+  opacity: 0;
+  transition: 0.5s;
+  cursor: default;
+}
+/* line 42, ../sass/portfolio-list.scss */
+.portfolio-list ul .item-list:hover .inner-links {
+  display: block;
+}
+/* line 47, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner {
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  width: 290px;
+}
+/* line 53, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner img {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+/* line 59, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner span {
+  position: absolute;
+  right: 20px;
+}
+/* line 65, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner p {
+  margin-top: 0;
+}
+/* line 68, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner p:first-child {
+  color: #ffffff;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 76, ../sass/portfolio-list.scss */
+.portfolio-list ul .list-inner p:last-child {
+  color: #02baab;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 20px;
 }
