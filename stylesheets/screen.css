@@ -906,10 +906,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 3, ../sass/button.scss */
-button {
+.button {
   background: none;
   cursor: pointer;
-  border: 3px solid;
+  border: 3px solid #02baab;
   color: #02baab;
   font-size: 12px;
   font-weight: 700;
@@ -1311,4 +1311,103 @@ body p {
 /* line 19, ../sass/pages-list.scss */
 .pages-list a:active li {
   color: #eeeeee;
+}
+
+/* line 3, ../sass/project-block.scss */
+.project-block {
+  position: relative;
+  width: 100%;
+  padding: 50px 0 150px;
+}
+/* line 8, ../sass/project-block.scss */
+.project-block .carousel {
+  width: 690px;
+}
+/* line 12, ../sass/project-block.scss */
+.project-block a {
+  text-decoration: none;
+  margin: 0;
+}
+/* line 17, ../sass/project-block.scss */
+.project-block .button {
+  width: 100px;
+  height: 36px;
+  border-color: #ffae00;
+  color: #ffae00;
+  font-size: 10px;
+  letter-spacing: 0.75px;
+  padding: 0 21px;
+}
+
+/* line 28, ../sass/project-block.scss */
+.likes {
+  position: relative;
+  padding-left: 25px;
+  color: #555555;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* line 38, ../sass/project-block.scss */
+.likes:before {
+  position: absolute;
+  content: "\f004";
+  font-family: FontAwesome;
+  left: 0;
+}
+
+/* line 46, ../sass/project-block.scss */
+.project-theme {
+  color: #ffc600;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* line 54, ../sass/project-block.scss */
+.project-description {
+  margin-top: 33px;
+  width: 200px;
+  color: #3b4954;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-weight: 300;
+}
+/* line 62, ../sass/project-block.scss */
+.project-description h4 {
+  margin-top: 33px;
+}
+/* line 66, ../sass/project-block.scss */
+.project-description p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* line 72, ../sass/project-block.scss */
+.work-description {
+  color: #3b4954;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  margin-bottom: 48px;
+}
+/* line 78, ../sass/project-block.scss */
+.work-description h4 {
+  font-weight: 700;
+  line-height: 24px;
+}
+/* line 84, ../sass/project-block.scss */
+.work-description li {
+  position: relative;
+  font-weight: 300;
+  line-height: 30px;
+  padding-left: 20px;
+}
+/* line 90, ../sass/project-block.scss */
+.work-description li:before {
+  position: absolute;
+  content: "\f046";
+  font-family: FontAwesome;
+  left: 0;
+  color: #ffae00;
 }

@@ -1,8 +1,8 @@
 /* line 3, ../sass/button.scss */
-button {
+.button {
   background: none;
   cursor: pointer;
-  border: 3px solid;
+  border: 3px solid #02baab;
   color: #02baab;
   font-size: 12px;
   font-weight: 700;
