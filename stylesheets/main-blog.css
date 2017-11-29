@@ -158,20 +158,58 @@ aside li {
 }
 
 /* line 160, ../sass/main-blog.scss */
-.tegs {
+.tag-cloud {
   position: relative;
   width: 210px;
 }
 /* line 164, ../sass/main-blog.scss */
-.tegs h3 {
+.tag-cloud h3 {
   margin-bottom: 16px;
 }
 /* line 168, ../sass/main-blog.scss */
-.tegs li {
+.tag-cloud li {
   border: 1px solid #eeeeee;
   padding: 0 5px;
   margin-right: 8px;
   margin-bottom: 5px;
   min-width: 50px;
   text-align: center;
+}
+
+/* line 178, ../sass/main-blog.scss */
+.tags {
+  position: relative;
+  margin-top: 40px;
+  padding-left: 25px;
+}
+/* line 183, ../sass/main-blog.scss */
+.tags:before {
+  position: absolute;
+  content: url("../images/label.png");
+  width: 15px;
+  height: 15px;
+  left: 0;
+  top: calc(50% - 7.5px);
+}
+
+/* line 193, ../sass/main-blog.scss */
+.related-posts {
+  position: relative;
+}
+/* line 196, ../sass/main-blog.scss */
+.related-posts li {
+  position: relative;
+  width: 200px;
+}
+/* line 200, ../sass/main-blog.scss */
+.related-posts li:before {
+  position: absolute;
+  content: '\f11c';
+  font-family: FontAwesome;
+  color: #c3c3c3;
+  top: -20px;
+}
+/* line 208, ../sass/main-blog.scss */
+.related-posts li p {
+  margin: 0;
 }
