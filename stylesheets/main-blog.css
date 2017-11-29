@@ -57,13 +57,73 @@
   height: auto;
 }
 
-/* line 60, ../sass/main-blog.scss */
+/* line 62, ../sass/main-blog.scss */
 .illustration li {
   margin-bottom: 39px;
   margin-right: 29px;
 }
 
-/* line 65, ../sass/main-blog.scss */
+/* line 68, ../sass/main-blog.scss */
 .main-area-bottom-border {
   border-bottom: 1px solid gray;
+}
+
+/* line 74, ../sass/main-blog.scss */
+aside li {
+  position: relative;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(219, 222, 223, 0.5);
+  padding-left: 20px;
+}
+
+/* line 85, ../sass/main-blog.scss */
+.blog-categories {
+  position: relative;
+  margin-bottom: 43px;
+}
+/* line 89, ../sass/main-blog.scss */
+.blog-categories a {
+  color: #02baab;
+}
+/* line 92, ../sass/main-blog.scss */
+.blog-categories a:hover {
+  color: #6d0fae;
+}
+/* line 99, ../sass/main-blog.scss */
+.blog-categories li:before {
+  position: absolute;
+  content: '\f097';
+  font-family: FontAwesome;
+  left: 0;
+  transform: rotate(-90deg);
+  color: #c3c3c3;
+}
+
+/* line 112, ../sass/main-blog.scss */
+.recent-comments li {
+  line-height: 25px;
+}
+/* line 115, ../sass/main-blog.scss */
+.recent-comments li:before {
+  position: absolute;
+  content: '\f10d';
+  font-family: FontAwesome;
+  left: 0;
+  top: 0;
+  color: #c3c3c3;
+}
+/* line 125, ../sass/main-blog.scss */
+.recent-comments p {
+  margin: 0;
+}
+/* line 129, ../sass/main-blog.scss */
+.recent-comments a {
+  color: #02baab;
+}
+/* line 132, ../sass/main-blog.scss */
+.recent-comments a:hover {
+  color: #6d0fae;
 }
