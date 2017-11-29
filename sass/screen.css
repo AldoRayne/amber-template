@@ -2,7 +2,7 @@
 Error: File to import not found or unreadable: compass/reset.
         on line 3 of screen.scss
 
-1: @import url('https://fonts.googleapis.com/css?family=Lato|Oxygen:300,400');
+1: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');
 2: 
 3: @import "compass/reset";
 4: 
@@ -55,4 +55,4 @@ C:/Ruby24-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 3 of screen.scss\A \A 1: @import url('https://fonts.googleapis.com/css?family=Lato|Oxygen:300,400');\A 2: \A 3: @import \"compass/reset\";\A 4: \A 5: @import \"header\";\A 6: @import \"welcome-section\";\A 7: @import \"works\";\A 8: @import \"month-steal\";"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 3 of screen.scss\A \A 1: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');\A 2: \A 3: @import \"compass/reset\";\A 4: \A 5: @import \"header\";\A 6: @import \"welcome-section\";\A 7: @import \"works\";\A 8: @import \"month-steal\";"; }
