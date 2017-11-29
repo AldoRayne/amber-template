@@ -1268,7 +1268,7 @@ body p {
   font-weight: 300;
   line-height: 20px;
 }
-/* line 38, ../sass/project-block.scss */
+/* line 37, ../sass/project-block.scss */
 .likes:before {
   position: absolute;
   content: "\f004";
@@ -1276,7 +1276,7 @@ body p {
   left: 0;
 }
 
-/* line 46, ../sass/project-block.scss */
+/* line 45, ../sass/project-block.scss */
 .project-theme {
   color: #ffc600;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
@@ -1285,7 +1285,7 @@ body p {
   line-height: 20px;
 }
 
-/* line 54, ../sass/project-block.scss */
+/* line 53, ../sass/project-block.scss */
 .project-description {
   margin-top: 33px;
   width: 200px;
@@ -1293,36 +1293,36 @@ body p {
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   font-weight: 300;
 }
-/* line 62, ../sass/project-block.scss */
+/* line 61, ../sass/project-block.scss */
 .project-description h4 {
   margin-top: 33px;
 }
-/* line 66, ../sass/project-block.scss */
+/* line 65, ../sass/project-block.scss */
 .project-description p {
   margin-top: 30px;
   font-size: 14px;
 }
 
-/* line 72, ../sass/project-block.scss */
+/* line 71, ../sass/project-block.scss */
 .work-description {
   color: #3b4954;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   margin-bottom: 48px;
 }
-/* line 78, ../sass/project-block.scss */
+/* line 77, ../sass/project-block.scss */
 .work-description h4 {
   font-weight: 700;
   line-height: 24px;
 }
-/* line 84, ../sass/project-block.scss */
+/* line 83, ../sass/project-block.scss */
 .work-description li {
   position: relative;
   font-weight: 300;
   line-height: 30px;
   padding-left: 20px;
 }
-/* line 90, ../sass/project-block.scss */
+/* line 89, ../sass/project-block.scss */
 .work-description li:before {
   position: absolute;
   content: "\f046";
@@ -1460,38 +1460,35 @@ body p {
 }
 /* line 8, ../sass/main-blog.scss */
 .main-blog h3 {
-  width: 690px;
   color: #474e52;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
 }
-/* line 17, ../sass/main-blog.scss */
+/* line 16, ../sass/main-blog.scss */
 .main-blog p {
-  width: 690px;
   margin-top: 0;
   color: #474e52;
   font-size: 14px;
   margin-bottom: 49px;
 }
-/* line 25, ../sass/main-blog.scss */
+/* line 23, ../sass/main-blog.scss */
 .main-blog blockquote {
   margin: 40px 0 30px 40px;
   padding-left: 20px;
   border-left: 5px solid #eeeeee;
 }
-/* line 30, ../sass/main-blog.scss */
+/* line 28, ../sass/main-blog.scss */
 .main-blog blockquote p {
   color: #c69c6d;
   font-family: "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 36px;
-  width: 625px;
   margin: 0;
 }
-/* line 40, ../sass/main-blog.scss */
+/* line 37, ../sass/main-blog.scss */
 .main-blog blockquote cite {
   color: #c69c6d;
   font-family: "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
@@ -1499,12 +1496,28 @@ body p {
   line-height: 30px;
   font-size: 14px;
   font-weight: 300;
-  width: 625px;
 }
 
-/* line 52, ../sass/main-blog.scss */
+/* line 48, ../sass/main-blog.scss */
 .blog-img {
+  position: relative;
   max-width: 690px;
   height: auto;
   margin-bottom: 49px;
+}
+/* line 54, ../sass/main-blog.scss */
+.blog-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 60, ../sass/main-blog.scss */
+.illustration li {
+  margin-bottom: 39px;
+  margin-right: 29px;
+}
+
+/* line 65, ../sass/main-blog.scss */
+.main-area-bottom-border {
+  border-bottom: 1px solid gray;
 }

@@ -6,7 +6,6 @@
   padding: 50px 0 100px;
 
   h3 {
-    width: 690px;
     color: #474e52;
     font-family: $Oxygen-Font;
     font-size: 18px;
@@ -15,7 +14,6 @@
   }
 
   p {
-    width: 690px;
     margin-top: 0;
     color: #474e52;
     font-size: 14px;
@@ -33,7 +31,6 @@
       font-size: 24px;
       font-weight: 300;
       line-height: 36px;
-      width: 625px;
       margin: 0;
     }
 
@@ -44,13 +41,27 @@
       line-height: 30px;
       font-size: 14px;
       font-weight: 300;
-      width: 625px;
     }
   }
 }
 
 .blog-img {
+  position: relative;
   max-width: 690px;
   height: auto;
   margin-bottom: 49px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.illustration li {
+  margin-bottom: 39px;
+  margin-right: 29px;
+}
+
+.main-area-bottom-border {
+  border-bottom: 1px solid gray;
 }

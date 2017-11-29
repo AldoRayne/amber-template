@@ -34,7 +34,7 @@
   font-weight: 300;
   line-height: 20px;
 }
-/* line 38, ../sass/project-block.scss */
+/* line 37, ../sass/project-block.scss */
 .likes:before {
   position: absolute;
   content: "\f004";
@@ -42,7 +42,7 @@
   left: 0;
 }
 
-/* line 46, ../sass/project-block.scss */
+/* line 45, ../sass/project-block.scss */
 .project-theme {
   color: #ffc600;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
@@ -51,7 +51,7 @@
   line-height: 20px;
 }
 
-/* line 54, ../sass/project-block.scss */
+/* line 53, ../sass/project-block.scss */
 .project-description {
   margin-top: 33px;
   width: 200px;
@@ -59,36 +59,36 @@
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   font-weight: 300;
 }
-/* line 62, ../sass/project-block.scss */
+/* line 61, ../sass/project-block.scss */
 .project-description h4 {
   margin-top: 33px;
 }
-/* line 66, ../sass/project-block.scss */
+/* line 65, ../sass/project-block.scss */
 .project-description p {
   margin-top: 30px;
   font-size: 14px;
 }
 
-/* line 72, ../sass/project-block.scss */
+/* line 71, ../sass/project-block.scss */
 .work-description {
   color: #3b4954;
   font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   margin-bottom: 48px;
 }
-/* line 78, ../sass/project-block.scss */
+/* line 77, ../sass/project-block.scss */
 .work-description h4 {
   font-weight: 700;
   line-height: 24px;
 }
-/* line 84, ../sass/project-block.scss */
+/* line 83, ../sass/project-block.scss */
 .work-description li {
   position: relative;
   font-weight: 300;
   line-height: 30px;
   padding-left: 20px;
 }
-/* line 90, ../sass/project-block.scss */
+/* line 89, ../sass/project-block.scss */
 .work-description li:before {
   position: absolute;
   content: "\f046";
