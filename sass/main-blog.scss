@@ -5,14 +5,6 @@
   width: 100%;
   padding: 50px 0 100px;
 
-  h3 {
-    color: #474e52;
-    font-family: $Oxygen-Font;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-  }
-
   p {
     margin-top: 0;
     color: #474e52;
@@ -196,6 +188,7 @@ aside {
   li {
     position: relative;
     width: 200px;
+    margin-bottom: 40px;
 
     &:before {
       position: absolute;
