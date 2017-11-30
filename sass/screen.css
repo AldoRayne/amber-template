@@ -1,18 +1,20 @@
 /*
 Error: File to import not found or unreadable: compass/reset.
-        on line 3 of screen.scss
+        on line 5 of screen.scss
 
-1: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');
+1: @import "variables";
 2: 
-3: @import "compass/reset";
+3: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');
 4: 
-5: @import "header";
-6: @import "welcome-section";
-7: @import "works";
-8: @import "month-steal";
+5: @import "compass/reset";
+6: 
+7: @import "header";
+8: @import "welcome-section";
+9: @import "works";
+10: @import "month-steal";
 
 Backtrace:
-screen.scss:3
+screen.scss:5
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -55,4 +57,4 @@ C:/Ruby24-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 3 of screen.scss\A \A 1: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');\A 2: \A 3: @import \"compass/reset\";\A 4: \A 5: @import \"header\";\A 6: @import \"welcome-section\";\A 7: @import \"works\";\A 8: @import \"month-steal\";"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 5 of screen.scss\A \A 1: @import \"variables\";\A 2: \A 3: @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');\A 4: \A 5: @import \"compass/reset\";\A 6: \A 7: @import \"header\";\A 8: @import \"welcome-section\";\A 9: @import \"works\";\A 10: @import \"month-steal\";"; }

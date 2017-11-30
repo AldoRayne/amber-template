@@ -9,15 +9,18 @@
 }
 /* line 8, ../sass/header.scss */
 .head .container-fluid:first-child {
+  position: relative;
   background-color: black;
 }
-/* line 12, ../sass/header.scss */
+/* line 13, ../sass/header.scss */
 .head .container-fluid:nth-child(2) {
+  position: relative;
   background-color: #868e96;
 }
-/* line 16, ../sass/header.scss */
+/* line 18, ../sass/header.scss */
 .head .container-fluid:nth-child(3) {
-  background-image: url("../images/background-image.jpg");
-  max-width: 1680px;
+  position: relative;
+  background: url("../images/background-image.jpg") 100% 100% no-repeat;
+  background-size: cover;
   height: 300px;
 }

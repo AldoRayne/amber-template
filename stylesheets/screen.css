@@ -76,16 +76,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 8, ../sass/header.scss */
 .head .container-fluid:first-child {
+  position: relative;
   background-color: black;
 }
-/* line 12, ../sass/header.scss */
+/* line 13, ../sass/header.scss */
 .head .container-fluid:nth-child(2) {
+  position: relative;
   background-color: #868e96;
 }
-/* line 16, ../sass/header.scss */
+/* line 18, ../sass/header.scss */
 .head .container-fluid:nth-child(3) {
-  background-image: url("../images/background-image.jpg");
-  max-width: 1680px;
+  position: relative;
+  background: url("../images/background-image.jpg") 100% 100% no-repeat;
+  background-size: cover;
   height: 300px;
 }
 
@@ -1783,4 +1786,79 @@ aside li {
 .middle-border {
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(133, 147, 159, 0.5);
+}
+
+/* line 3, ../sass/section-header.scss */
+.page-header {
+  height: 300px;
+  padding-bottom: 55px;
+}
+/* line 7, ../sass/section-header.scss */
+.page-header h1 {
+  color: #ffffff;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+/* line 16, ../sass/section-header.scss */
+.page-header p {
+  color: #85939f;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* line 24, ../sass/section-header.scss */
+.page-header li {
+  color: #85939f;
+  margin-right: 34px;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 30px;
+}
+
+/* line 35, ../sass/section-header.scss */
+.user-circle {
+  position: relative;
+}
+/* line 38, ../sass/section-header.scss */
+.user-circle:before {
+  position: absolute;
+  content: '\f2bd';
+  font-family: FontAwesome;
+  font-size: 18px;
+  color: #3b4954;
+  left: 0;
+}
+
+/* line 48, ../sass/section-header.scss */
+.clock-o {
+  position: relative;
+}
+/* line 51, ../sass/section-header.scss */
+.clock-o:before {
+  position: absolute;
+  content: '\f017';
+  font-family: FontAwesome;
+  font-size: 18px;
+  color: #3b4954;
+  left: 0;
+}
+
+/* line 61, ../sass/section-header.scss */
+.quote {
+  position: relative;
+}
+/* line 64, ../sass/section-header.scss */
+.quote:before {
+  position: absolute;
+  content: '\f10d';
+  font-family: FontAwesome;
+  font-size: 18px;
+  color: #3b4954;
+  left: 0;
 }
