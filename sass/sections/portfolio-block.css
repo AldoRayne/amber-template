@@ -1,0 +1,14 @@
+.portfolio-block {
+  position: relative;
+  width: 100%; }
+  .portfolio-block p {
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px; }
+  .portfolio-block button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #02baab; }
+
+/*# sourceMappingURL=portfolio-block.css.map */

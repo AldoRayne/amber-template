@@ -1,35 +1,51 @@
+//variables
 @import "variables";
 
+//fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Oxygen:300,400');
 
+//compass+reset
 @import "compass/reset";
 
-@import "header";
-@import "welcome-section";
-@import "works";
-@import "month-steal";
-@import "ad-section";
-@import "features";
-@import "comments-section";
-@import "blog-posts-section";
-@import "company-exp-section";
-@import "our-team-section";
-@import "site-footer";
-@import "containers";
-@import "jumbotron";
-@import "button";
-@import "nav-bar";
-@import "section-title";
-@import "section-description";
-@import "progress-bar";
-@import "blog-post";
-@import "pages-list";
-@import "project-block";
-@import "portfolio-block";
-@import "categories";
-@import "portfolio-list";
-@import "main-blog";
-@import "comments-block";
-@import "comments-form";
-@import "comments-list";
-@import "section-header";
+//active
+@import "active/button";
+@import "active/nav-bar";
+@import "active/comments-form";
+
+//body
+@import "body/containers";
+@import "body/section-title";
+@import "body/section-description";
+
+//sections
+@import "sections/header";
+@import "sections/section-header";
+@import "sections/welcome-section";
+@import "sections/works";
+@import "sections/ad-section";
+@import "sections/month-steal";
+@import "sections/features";
+@import "sections/comments-section";
+@import "sections/blog-posts-section";
+@import "sections/company-exp-section";
+@import "sections/portfolio-block";
+@import "sections/our-team-section";
+@import "sections/site-footer";
+@import "sections/project-block";
+
+
+//content
+@import "content/blog-post";
+@import "content/main-blog";
+@import "content/comments-block";
+@import "content/comments-list";
+@import "content/categories";
+@import "content/progress-bar";
+@import "content/pages-list";
+@import "content/portfolio-list";
+
+
+
+
+
+
