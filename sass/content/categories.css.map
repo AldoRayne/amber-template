@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,WAAY;EACV,WAAW,ECFC,qDAAqD;EDGjE,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;EAEhB,aAAE;IACA,KAAK,EAAE,OAAO;IAEd,oBAAS;MACP,KAAK,EAAE,OAAO;EAIlB,cAAG;IACD,YAAY,EAAE,IAAI",
+"sources": ["categories.scss","../variables.scss"],
+"names": [],
+"file": "categories.css"
+}
